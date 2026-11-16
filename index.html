@@ -1595,7 +1595,7 @@
         </div>
         <div class="brand-titles">
           <h1>Chollar</h1>
-          <p class="subtitle">DEMO    นี้เป็น    Project   ที่ทำขึ้นเล่นว่างๆ   หวังว่าทุกคนจะชอบนะครับ    จา : )  </p>
+          <p class="subtitle">เป็นเว็ป DEMO ที่ทำขึ้นโดยนาย ชลธี จงคอยกลาง (จา)</p>
         </div>
       </div>
 
@@ -1620,7 +1620,7 @@
       </div>
     </header>
 
-    <!-- แถบเลือกจังหวะและเสียงเครื่องดนตรี -->
+    <!-- แถบเลือกจังหวะและเสียงเครื่องดนตรี (จัดหมวดหมู่ + ช่องแนะนำ) -->
     <div class="controls">
       <div class="controls-group">
         <select id="playStyleSelect">
@@ -1629,19 +1629,57 @@
         </select>
 
         <select id="presetSelect" title="เลือกเสียงเครื่องดนตรี">
-          <optgroup label="เปียโน & คีย์บอร์ด">
-            <option value="grand_piano" selected>เสียง: Grand Piano (แกรนด์เปียโน)</option>
-            <option value="upright_piano">เสียง: Upright Piano (เปียโนอัพไรท์)</option>
-            <option value="epiano">เสียง: Lo-Fi Electric Piano (Rhodes)</option>
-            <option value="dx_piano">เสียง: 80s FM Crystal Piano</option>
-            <option value="celesta">เสียง: Celesta / Music Box (กล่องดนตรี)</option>
+          <optgroup label="แนะนำ (Top Recommended)">
+            <option value="grand_piano" selected>เสียง: Grand Piano — แกรนด์เปียโนกังวานนุ่ม</option>
+            <option value="warm_synth">เสียง: Warm Synth — ซินธ์อุ่นละมุนโอบล้อม</option>
+            <option value="retro_synth">เสียง: Retro Synth — ซินธ์อนาล็อกยุค 80s</option>
+            <option value="dreamy_string">เสียง: Dreamy String — เครื่องสายล่องลอยชวนฝัน</option>
+            <option value="horn">เสียง: Warm Horn — เครื่องเป่าฮอร์นอบอุ่นทรงพลัง</option>
+            <option value="epiano">เสียง: Lo-Fi Rhodes — เปียโนไฟฟ้าชิลล์ละมุน</option>
           </optgroup>
-          <optgroup label="กีตาร์ ออร์แกน & เครื่องสาย">
-            <option value="nylon_guitar">เสียง: Acoustic Nylon Guitar (กีตาร์โปร่ง)</option>
-            <option value="kalimba">เสียง: Kalimba (คาลิมบา)</option>
-            <option value="jazz_organ">เสียง: Jazz Drawbar Organ (ออร์แกนแจ๊ส)</option>
-            <option value="strings">เสียง: Warm String Ensemble (วงเครื่องสาย)</option>
-            <option value="pad">เสียง: Warm Ambient Pad (ซินธ์แพด)</option>
+
+          <optgroup label="เปียโน & คีย์บอร์ด (Piano & Keys)">
+            <option value="upright_piano">เสียง: Upright Piano — เปียโนอัพไรท์อินดี้</option>
+            <option value="felt_piano">เสียง: Intimate Felt Piano — เปียโนซับเสียงนุ่มลึก</option>
+            <option value="dx_piano">เสียง: 80s FM Crystal Piano — เปียโนคริสตัลใส</option>
+            <option value="wurlitzer">เสียง: Vintage Wurlitzer — เปียโนไฟฟ้าวินเทจ</option>
+            <option value="clavinet">เสียง: Funky Clavinet — คลาวิเน็ตดีดเด้ง</option>
+            <option value="harpsichord">เสียง: Baroque Harpsichord — ฮาร์ปซิคอร์ดคลาสสิก</option>
+          </optgroup>
+
+          <optgroup label="ซินธิไซเซอร์ & แพด (Synthesizers & Pads)">
+            <option value="analog_poly">เสียง: Analog Polysynth — โพลีซินธ์หนาแน่น</option>
+            <option value="glass_pad">เสียง: Glass Ambient Pad — แพดแก้วใสโปร่ง</option>
+            <option value="dream_pluck">เสียง: Dreamy Synth Pluck — ซินธ์พลัคเด้งนุ่ม</option>
+            <option value="cyber_lead">เสียง: Silky Synth Lead — ซินธ์ลีดพริ้วหวาน</option>
+            <option value="sub_pad">เสียง: Deep Sub Pad — แพดทุ้มลึกอบอุ่น</option>
+            <option value="aurora_pad">เสียง: Aurora Shimmer Pad — แพดระยิบระยับ</option>
+            <option value="pad">เสียง: Warm Ambient Pad — ซินธ์แพดนุ่มนวล</option>
+          </optgroup>
+
+          <optgroup label="เครื่องสาย & เสียงประสาน (Strings & Choir)">
+            <option value="strings">เสียง: Warm String Ensemble — วงเครื่องสายอบอุ่น</option>
+            <option value="cello_ensemble">เสียง: Deep Cello Section — วงเชลโลทุ้มนุ่มลึก</option>
+            <option value="pizzicato">เสียง: Pizzicato Strings — เครื่องสายดีดนิ้วกระชับ</option>
+            <option value="harp">เสียง: Concert Harp — พิณคอนเสิร์ตกังวาน</option>
+            <option value="choir_pad">เสียง: Ethereal Vocal Choir — เสียงประสานล่องลอย</option>
+          </optgroup>
+
+          <optgroup label="เครื่องเป่าทองเหลือง & ลมไม้ (Brass & Woodwinds)">
+            <option value="brass_section">เสียง: Symphonic Brass — วงเครื่องเป่าออร์เคสตรา</option>
+            <option value="muted_trumpet">เสียง: Jazz Muted Trumpet — ทรัมเป็ตแจ๊สซอฟต์</option>
+            <option value="flute">เสียง: Soft Bamboo Flute — ขลุ่ยไม้นุ่มละมุน</option>
+            <option value="pan_flute">เสียง: Airy Pan Flute — แพนฟลูตโปร่งสบาย</option>
+          </optgroup>
+
+          <optgroup label="กีตาร์ ออร์แกน & เครื่องเคาะ (Guitar, Organ & Mallets)">
+            <option value="nylon_guitar">เสียง: Acoustic Nylon Guitar — กีตาร์โปร่งสายไนลอน</option>
+            <option value="kalimba">เสียง: Kalimba — คาลิมบาใสกังวาน</option>
+            <option value="celesta">เสียง: Celesta / Music Box — กล่องดนตรีระยิบระยับ</option>
+            <option value="vibraphone">เสียง: Jazz Vibraphone — ไวบราโฟนแจ๊สสั่นพริ้ว</option>
+            <option value="marimba">เสียง: Warm Wooden Marimba — มาริมบาไม้อบอุ่น</option>
+            <option value="jazz_organ">เสียง: Jazz Drawbar Organ — ออร์แกนแจ๊สคลาสสิก</option>
+            <option value="church_organ">เสียง: Cathedral Pipe Organ — ออร์แกนท่อกังวาน</option>
           </optgroup>
         </select>
       </div>
@@ -1688,7 +1726,7 @@
         </select>
       </div>
 
-      <div class="fx-item" title="ปรับความยาวหางเสียงและระยะเวลาค้างของโน้ต">
+      <div class="fx-item" title="0% = ไม่มี Sustain เลย | 50% = ค้างปานกลาง 50% | 100% = ติดค้างยาวนานต่อเนื่อง">
         <svg class="ui-icon" viewBox="0 0 24 24">
           <path d="M2 12h4l3-7 4 14 3-7h6" />
         </svg>
@@ -2274,6 +2312,14 @@
     const LEFT_DISPLAY_ORDER = [4, 3, 2, 1, 0];
     const RIGHT_DISPLAY_ORDER = [0, 1, 2, 3, 4];
 
+    const SLOT_TIP_INDICES = [
+      [0],    // 0: โป้ง
+      [1],    // 1: ชี้
+      [1, 2], // 2: ชี้ + กลาง
+      [0, 4], // 3: โป้ง + ก้อย
+      [4]     // 4: ก้อย
+    ];
+
     const DEFAULT_BASIC_MAP = {
       left:  ["C", "Dm", "Em", "F", "G"],
       right: ["Am", "Bm7b5", "A7", "D7", "E7"]
@@ -2325,6 +2371,7 @@
     let handLandmarker = null;
     let currentStream = null;
     let lastVideoTime = -1;
+    let lastDetectTimestamp = 0;
     let isLoopRunning = false;
 
     let audioCtx = null;
@@ -2338,9 +2385,12 @@
     let wavePhase = 0;
     let smoothedWaveEnergy = 0;
 
+    // เก็บเสียงที่กำลังเฟดหางเสียงอยู่ เพื่อให้กำมือตัดเสียงเงียบทั้งหมดได้ทันที
+    const activeLingeringVoices = new Set();
+
     function createHandTrackerState() {
       return {
-        fingerExt: [false, false, false, false],
+        fingerExt: [false, false, false, false, false], // [thumb, index, middle, ring, pinky]
         confirmedStates: [false, false, false, false, false],
         rawStates: [false, false, false, false, false],
         holdCounters: [0, 0, 0, 0, 0],
@@ -2352,7 +2402,18 @@
         baseY: [null, null, null, null, null],
         voicingStep: [0, 0, 0, 0, 0],
         voicingLabels: ["", "", "", "", ""],
-        activeLiftLabel: ""
+        activeLiftLabel: "",
+        missingFrames: 0,
+        lastPalmPos: null,
+        fistFrames: 0,
+        fistMuted: false,
+        openHandFrames: 0,
+        prevNormTips: null,
+        candidateSlot: -1,
+        candidateSince: 0,
+        lastReleaseTime: 0,
+        lastReleasedSlot: -1,
+        slotCandidateSince: [0, 0, 0, 0, 0]
       };
     }
 
@@ -2448,33 +2509,57 @@
     }
 
     // =========================================================================
-    // ระบบตรวจจับท่ามือ 5 ท่า (ล็อกการทำงาน 100%)
+    // ระบบตรวจจับท่ามือ 5 ท่า:
+    // - กำมือ = ไม่จับนิ้วใดๆ เด็ดขาด และตัดเสียงทั้งหมดเงียบสนิททันที
+    // - แบมือ 5 นิ้ว = ไม่จับอะไรทั้งนั้น
+    // - นิ้วชี้ / ชี้+กลาง / โป้ง / โป้ง+ก้อย / ก้อย = จับติดง่ายและล็อกนิ่งสนิท
     // =========================================================================
     function getStabilityConfig() {
       const mode = stabilitySelect.value;
       if (mode === "strict") {
         return {
-          angleOn: 156, angleOff: 135,
-          reachOn: 0.38, reachOff: 0.22,
-          thumbReachOn: 0.68, thumbReachOff: 0.54,
-          thumbAngleOn: 146, thumbAngleOff: 128,
-          confirmFrames: 4
+          angleOn: 122, angleOff: 96,
+          dipAngleOn: 120, dipAngleOff: 96,
+          reachOn: 0.14, reachOff: 0.05,
+          mcpTipRatioOn: 1.32, mcpTipRatioOff: 1.14,
+          thumbAngleOn: 130, thumbAngleOff: 108,
+          thumbIndexReachOn: 0.48, thumbIndexReachOff: 0.37,
+          thumbMiddleReachOn: 0.60, thumbMiddleReachOff: 0.48,
+          thumbPinkySpreadOn: 0.88, thumbPinkySpreadOff: 0.74,
+          onsetDwellMs: 38,
+          switchBonusMs: 16,
+          subsetDropBonusMs: 18,
+          settleSpeedMax: 0.36
         };
       } else if (mode === "fast") {
         return {
-          angleOn: 144, angleOff: 124,
-          reachOn: 0.29, reachOff: 0.16,
-          thumbReachOn: 0.58, thumbReachOff: 0.46,
-          thumbAngleOn: 134, thumbAngleOff: 118,
-          confirmFrames: 2
+          angleOn: 110, angleOff: 86,
+          dipAngleOn: 110, dipAngleOff: 86,
+          reachOn: 0.09, reachOff: 0.02,
+          mcpTipRatioOn: 1.22, mcpTipRatioOff: 1.08,
+          thumbAngleOn: 120, thumbAngleOff: 100,
+          thumbIndexReachOn: 0.42, thumbIndexReachOff: 0.33,
+          thumbMiddleReachOn: 0.54, thumbMiddleReachOff: 0.44,
+          thumbPinkySpreadOn: 0.80, thumbPinkySpreadOff: 0.68,
+          onsetDwellMs: 12,
+          switchBonusMs: 6,
+          subsetDropBonusMs: 8,
+          settleSpeedMax: 0.55
         };
       }
       return {
-        angleOn: 150, angleOff: 130,
-        reachOn: 0.33, reachOff: 0.19,
-        thumbReachOn: 0.63, thumbReachOff: 0.50,
-        thumbAngleOn: 140, thumbAngleOff: 123,
-        confirmFrames: 3
+        angleOn: 115, angleOff: 90,
+        dipAngleOn: 114, dipAngleOff: 90,
+        reachOn: 0.11, reachOff: 0.03,
+        mcpTipRatioOn: 1.26, mcpTipRatioOff: 1.10,
+        thumbAngleOn: 125, thumbAngleOff: 104,
+        thumbIndexReachOn: 0.45, thumbIndexReachOff: 0.35,
+        thumbMiddleReachOn: 0.57, thumbMiddleReachOff: 0.46,
+        thumbPinkySpreadOn: 0.84, thumbPinkySpreadOff: 0.71,
+        onsetDwellMs: 22,
+        switchBonusMs: 10,
+        subsetDropBonusMs: 12,
+        settleSpeedMax: 0.45
       };
     }
 
@@ -2490,63 +2575,212 @@
       return Math.acos(cosAngle) * (180 / Math.PI);
     }
 
+    // ตัดเสียงที่กำลังดังหรือค้างหางเสียงทั้งหมดทันทีเมื่อกำมือ
+    function silenceAllSoundOnFist(tracker) {
+      for (let i = 0; i < 5; i++) {
+        if (tracker.sustainVoices[i]) {
+          tracker.sustainVoices[i].forEach(v => v && v.stop(true));
+          tracker.sustainVoices[i] = null;
+        }
+        if (tracker.triggerVoices[i]) {
+          tracker.triggerVoices[i].forEach(v => v && v.stop(true));
+          tracker.triggerVoices[i] = null;
+        }
+        tracker.baseY[i] = null;
+        tracker.voicingStep[i] = 0;
+        tracker.voicingLabels[i] = "";
+      }
+      tracker.activeLiftLabel = "";
+
+      activeLingeringVoices.forEach(v => {
+        try { v.stop(true); } catch (_) {}
+      });
+      activeLingeringVoices.clear();
+    }
+
     function evaluateHandFingers(landmarks, tracker) {
       const cfg = getStabilityConfig();
+      const now = performance.now();
       const dist = (a, b) => Math.hypot(a.x - b.x, a.y - b.y);
       const wrist = landmarks[0];
       const palmSize = Math.max(dist(wrist, landmarks[9]), 0.001);
 
+      const tipIds = [4, 8, 12, 16, 20];
+      const currNormTips = tipIds.map(id => ({
+        x: (landmarks[id].x - wrist.x) / palmSize,
+        y: (landmarks[id].y - wrist.y) / palmSize
+      }));
+
+      const tipSpeeds = [0, 0, 0, 0, 0];
+      if (tracker.prevNormTips) {
+        for (let i = 0; i < 5; i++) {
+          tipSpeeds[i] = Math.hypot(
+            currNormTips[i].x - tracker.prevNormTips[i].x,
+            currNormTips[i].y - tracker.prevNormTips[i].y
+          );
+        }
+      }
+      tracker.prevNormTips = currNormTips;
+
+      // 1) ประเมินนิ้วโป้ง (landmarks 1-2-3-4)
+      // เช็กทั้งมุมข้อต่อ + ระยะกางออกจากโคนนิ้วชี้และโคนนิ้วกลาง เพื่อไม่ให้นิ้วโป้งที่พักข้างมือตอนชูนิ้วชี้เด้งหลอก
       const thumbAngle = getJointAngle(landmarks[2], landmarks[3], landmarks[4]);
+      const thumbBaseAngle = getJointAngle(landmarks[1], landmarks[2], landmarks[3]);
       const thumbSpreadIndex = dist(landmarks[4], landmarks[5]) / palmSize;
+      const thumbSpreadMiddle = dist(landmarks[4], landmarks[9]) / palmSize;
       const thumbSpreadPinky = dist(landmarks[4], landmarks[17]) / palmSize;
 
       const prevThumb = tracker.fingerExt[0];
       const thumbExt = prevThumb
-        ? (thumbAngle >= cfg.thumbAngleOff && thumbSpreadIndex >= cfg.thumbReachOff && thumbSpreadPinky >= 1.06)
-        : (thumbAngle >= cfg.thumbAngleOn  && thumbSpreadIndex >= cfg.thumbReachOn  && thumbSpreadPinky >= 1.16);
+        ? (
+            thumbAngle >= cfg.thumbAngleOff &&
+            thumbBaseAngle >= 115 &&
+            thumbSpreadIndex >= cfg.thumbIndexReachOff &&
+            thumbSpreadMiddle >= cfg.thumbMiddleReachOff &&
+            thumbSpreadPinky >= cfg.thumbPinkySpreadOff
+          )
+        : (
+            thumbAngle >= cfg.thumbAngleOn &&
+            thumbBaseAngle >= 125 &&
+            thumbSpreadIndex >= cfg.thumbIndexReachOn &&
+            thumbSpreadMiddle >= cfg.thumbMiddleReachOn &&
+            thumbSpreadPinky >= cfg.thumbPinkySpreadOn
+          );
       tracker.fingerExt[0] = thumbExt;
 
-      const thumbScore = Math.max(0, Math.min(100,
-        ((thumbSpreadIndex - 0.45) / (cfg.thumbReachOn - 0.45)) * 100
-      ));
+      // นิ้วโป้งกางออกกว้างมากเป็นพิเศษ (ใช้แยกกรณีชูนิ้วชี้แล้วนิ้วโป้งพักข้างมือตามธรรมชาติ)
+      const thumbWideOut =
+        thumbAngle >= 134 &&
+        thumbSpreadIndex >= 0.54 &&
+        thumbSpreadMiddle >= 0.66;
 
+      const thumbReachRatio = Math.min(
+        (thumbSpreadIndex - 0.34) / Math.max(0.08, cfg.thumbIndexReachOn - 0.34),
+        (thumbSpreadMiddle - 0.44) / Math.max(0.08, cfg.thumbMiddleReachOn - 0.44)
+      );
+      const thumbAngleRatio = (thumbAngle - 102) / Math.max(14, cfg.thumbAngleOn - 102);
+      const thumbScore = Math.max(0, Math.min(100, Math.min(thumbReachRatio, thumbAngleRatio) * 100));
+
+      // 2) ประเมินครบทั้ง 4 นิ้ว: นิ้วชี้ (1), นิ้วกลาง (2), นิ้วนาง (3), นิ้วก้อย (4)
+      // บังคับเช็ก: ปลายนิ้วต้องยื่นพ้นข้อกลางออกไปจริง (reach > 0) และระยะ MCP->TIP ต้องยาวกว่า MCP->PIP ชัดเจน
+      // เพื่อไม่ให้นิ้วที่งอเข้าฝ่ามือตอนกำมือ (เช่น นิ้วก้อยในกำมือ) หลุดเข้ามาจับได้เด็ดขาด
       const trackedFingers = [
-        { slotIdx: 1, joints: [5, 6, 7, 8],     reachOffset: 0 },
-        { slotIdx: 2, joints: [9, 10, 11, 12],  reachOffset: 0 },
-        { slotIdx: 3, joints: [17, 18, 19, 20], reachOffset: -0.03 }
+        { extIdx: 1, joints: [5, 6, 7, 8],     angleOffset: -6, reachOffset: -0.02, ratioOffset: -0.04 },
+        { extIdx: 2, joints: [9, 10, 11, 12],  angleOffset: 4,  reachOffset: 0.02,  ratioOffset: 0.02  },
+        { extIdx: 3, joints: [13, 14, 15, 16], angleOffset: 4,  reachOffset: 0.02,  ratioOffset: 0.02  },
+        { extIdx: 4, joints: [17, 18, 19, 20], angleOffset: -2, reachOffset: 0.00,  ratioOffset: 0.00  }
       ];
 
-      const fExt = [false, false, false];
-      const fScores = [0, 0, 0];
+      const fExt = [false, false, false, false];
+      const fScores = [0, 0, 0, 0];
 
-      trackedFingers.forEach(({ slotIdx, joints: [mcpIdx, pipIdx, dipIdx, tipIdx], reachOffset }, i) => {
-        const angle = getJointAngle(landmarks[mcpIdx], landmarks[pipIdx], landmarks[tipIdx]);
-        const reach = (dist(wrist, landmarks[tipIdx]) - dist(wrist, landmarks[pipIdx])) / palmSize;
+      trackedFingers.forEach(({ extIdx, joints: [mcpIdx, pipIdx, dipIdx, tipIdx], angleOffset, reachOffset, ratioOffset }, i) => {
+        const overallAngle = getJointAngle(landmarks[mcpIdx], landmarks[pipIdx], landmarks[tipIdx]);
+        const pipAngle = getJointAngle(landmarks[mcpIdx], landmarks[pipIdx], landmarks[dipIdx]);
+        const dipAngle = getJointAngle(landmarks[pipIdx], landmarks[dipIdx], landmarks[tipIdx]);
 
-        const wasExt = tracker.fingerExt[slotIdx];
-        const effAngleOn = cfg.angleOn;
+        const tipWristDist = dist(wrist, landmarks[tipIdx]);
+        const pipWristDist = dist(wrist, landmarks[pipIdx]);
+        const reach = (tipWristDist - pipWristDist) / palmSize;
+
+        const mcpToPip = Math.max(dist(landmarks[mcpIdx], landmarks[pipIdx]), 0.001);
+        const mcpToTip = dist(landmarks[mcpIdx], landmarks[tipIdx]);
+        const mcpTipRatio = mcpToTip / mcpToPip;
+
+        const wasExt = tracker.fingerExt[extIdx];
+        const effAngleOn = cfg.angleOn + angleOffset;
+        const effAngleOff = cfg.angleOff + angleOffset;
+        const effDipOn = cfg.dipAngleOn + angleOffset;
+        const effDipOff = cfg.dipAngleOff + angleOffset;
         const effReachOn = cfg.reachOn + reachOffset;
         const effReachOff = cfg.reachOff + reachOffset;
+        const effMcpTipOn = cfg.mcpTipRatioOn + ratioOffset;
+        const effMcpTipOff = cfg.mcpTipRatioOff + ratioOffset;
 
         const isExt = wasExt
-          ? (angle >= cfg.angleOff && reach >= effReachOff)
-          : (angle >= effAngleOn   && reach >= effReachOn);
+          ? (
+              overallAngle >= effAngleOff &&
+              pipAngle >= effAngleOff &&
+              dipAngle >= effDipOff &&
+              reach >= effReachOff &&
+              mcpTipRatio >= effMcpTipOff
+            )
+          : (
+              overallAngle >= effAngleOn &&
+              pipAngle >= effAngleOn &&
+              dipAngle >= effDipOn &&
+              reach >= effReachOn &&
+              mcpTipRatio >= effMcpTipOn
+            );
 
-        tracker.fingerExt[slotIdx] = isExt;
+        tracker.fingerExt[extIdx] = isExt;
         fExt[i] = isExt;
 
-        const angleNorm = (angle - 108) / (effAngleOn - 108);
-        fScores[i] = Math.max(0, Math.min(100, angleNorm * 100));
+        const angleNorm = (overallAngle - 85) / Math.max(14, effAngleOn - 85);
+        const reachNorm = reach / Math.max(0.08, effReachOn);
+        const ratioNorm = (mcpTipRatio - 1.0) / Math.max(0.15, effMcpTipOn - 1.0);
+        const combinedNorm = Math.min(1.2, (angleNorm * 0.4 + reachNorm * 0.3 + ratioNorm * 0.3));
+        fScores[i] = Math.max(0, Math.min(100, combinedNorm * 100));
       });
 
-      const [indexExt, middleExt, pinkyExt] = fExt;
-      const [indexScore, middleScore, pinkyScore] = fScores;
+      const [indexExt, middleExt, ringExt, pinkyExt] = fExt;
+      const [indexScore, middleScore, , pinkyScore] = fScores;
 
-      const isIndexMiddle = indexExt && middleExt && !pinkyExt;
-      const isThumbPinky  = thumbExt && pinkyExt && !indexExt && !middleExt;
-      const isThumbOnly   = thumbExt && !indexExt && !middleExt && !pinkyExt;
-      const isIndexOnly   = indexExt && !middleExt && !pinkyExt && !thumbExt;
-      const isPinkyOnly   = pinkyExt && !thumbExt && !indexExt && !middleExt;
+      const fourFingerOpenCount = (indexExt ? 1 : 0) + (middleExt ? 1 : 0) + (ringExt ? 1 : 0) + (pinkyExt ? 1 : 0);
+
+      // กรณี "ชู 5 นิ้ว" (หรือแบมือ 3-5 นิ้ว): ไม่จับอะไรทั้งนั้น
+      const isOpenHand = fourFingerOpenCount >= 3;
+
+      // กรณี "กำมือ": นิ้วชี้ กลาง นาง ก้อย พับลงทั้งหมด และนิ้วโป้งไม่กางออก
+      const isFist = (fourFingerOpenCount === 0) && !thumbExt;
+
+      if (isOpenHand) {
+        tracker.openHandFrames++;
+        tracker.fistFrames = 0;
+        tracker.fistMuted = false;
+        for (let i = 0; i < 5; i++) {
+          tracker.confirmedStates[i] = false;
+          tracker.rawStates[i] = false;
+          tracker.holdCounters[i] = 0;
+          tracker.scores[i] = 0;
+          tracker.slotCandidateSince[i] = 0;
+        }
+        tracker.candidateSlot = -1;
+        tracker.candidateSince = 0;
+        return [false, false, false, false, false];
+      }
+      tracker.openHandFrames = 0;
+
+      if (isFist) {
+        tracker.fistFrames++;
+        for (let i = 0; i < 5; i++) {
+          tracker.confirmedStates[i] = false;
+          tracker.rawStates[i] = false;
+          tracker.holdCounters[i] = 0;
+          tracker.scores[i] = 0;
+          tracker.slotCandidateSince[i] = 0;
+        }
+        tracker.candidateSlot = -1;
+        tracker.candidateSince = 0;
+
+        // กำมือ = ตัดเสียงทั้งหมดเงียบสนิทเสมือนสั่งหยุด
+        if (tracker.fistFrames >= 2 && !tracker.fistMuted) {
+          tracker.fistMuted = true;
+          silenceAllSoundOnFist(tracker);
+        }
+        return [false, false, false, false, false];
+      }
+
+      tracker.fistFrames = 0;
+      tracker.fistMuted = false;
+
+      // 3) ตรวจสอบ 5 ท่าคอร์ดเฉพาะตอนที่ชูนิ้วนั้นจริงๆ เท่านั้น
+      // - นิ้วชี้ และ ชี้+กลาง ยอมให้นิ้วโป้งพักข้างมือตามธรรมชาติได้ (ไม่โดนนิ้วโป้งที่พักอยู่บล็อก)
+      const isThumbOnly   = thumbExt && !indexExt && !middleExt && !ringExt && !pinkyExt;
+      const isIndexOnly   = indexExt && !middleExt && !ringExt && !pinkyExt && !thumbWideOut;
+      const isIndexMiddle = indexExt && middleExt && !ringExt && !pinkyExt;
+      const isThumbPinky  = thumbExt && pinkyExt && !indexExt && !middleExt && !ringExt;
+      const isPinkyOnly   = pinkyExt && !thumbExt && !indexExt && !middleExt && !ringExt;
 
       tracker.rawStates = [
         isThumbOnly,
@@ -2557,43 +2791,145 @@
       ];
 
       tracker.scores = [
-        isThumbOnly   ? thumbScore : 0,
-        isIndexOnly   ? indexScore : 0,
-        isIndexMiddle ? Math.round((indexScore + middleScore) / 2) : 0,
-        isThumbPinky  ? Math.round((thumbScore + pinkyScore) / 2) : 0,
-        isPinkyOnly   ? pinkyScore : 0
+        isThumbOnly   ? Math.max(65, thumbScore) : 0,
+        isIndexOnly   ? Math.max(68, indexScore) : 0,
+        isIndexMiddle ? Math.max(68, Math.round((indexScore + middleScore) / 2)) : 0,
+        isThumbPinky  ? Math.max(68, Math.round((thumbScore + pinkyScore) / 2)) : 0,
+        isPinkyOnly   ? Math.max(65, pinkyScore) : 0
       ];
 
+      // โหมดทีละ 1 ท่า/มือ: ค้างเสียงเฉพาะตอนที่ยังชูนิ้วท่านั้นอยู่ และตัดทันทีเมื่อพับนิ้วลงหรือเปลี่ยนนิ้ว
+      if (soloFingerToggle.checked) {
+        let rawCandidate = -1;
+        let bestRawScore = -1;
+        for (let i = 0; i < 5; i++) {
+          if (tracker.rawStates[i] && tracker.scores[i] > bestRawScore) {
+            bestRawScore = tracker.scores[i];
+            rawCandidate = i;
+          }
+        }
+
+        const prevConfirmed = tracker.confirmedStates.findIndex(v => v);
+
+        const isPrimaryHeld = (slotIdx) => {
+          if (slotIdx === 0) return thumbExt && !indexExt && !middleExt && !pinkyExt;
+          if (slotIdx === 1) return indexExt && !middleExt && !ringExt && !pinkyExt;
+          if (slotIdx === 2) return indexExt && middleExt && !ringExt && !pinkyExt;
+          if (slotIdx === 3) return thumbExt && pinkyExt && !indexExt && !middleExt;
+          if (slotIdx === 4) return pinkyExt && !indexExt && !middleExt && !ringExt;
+          return false;
+        };
+
+        if (prevConfirmed !== -1 && (rawCandidate === prevConfirmed || (rawCandidate === -1 && isPrimaryHeld(prevConfirmed)))) {
+          tracker.holdCounters[prevConfirmed] = 0;
+          tracker.candidateSlot = prevConfirmed;
+          tracker.candidateSince = 0;
+          if (tracker.scores[prevConfirmed] < 68) {
+            tracker.scores[prevConfirmed] = 78;
+          }
+          return [0, 1, 2, 3, 4].map(i => i === prevConfirmed);
+        }
+
+        if (rawCandidate === -1) {
+          tracker.candidateSlot = -1;
+          tracker.candidateSince = 0;
+          if (prevConfirmed !== -1) {
+            tracker.holdCounters[prevConfirmed]++;
+            if (tracker.holdCounters[prevConfirmed] >= 2) {
+              tracker.confirmedStates[prevConfirmed] = false;
+              tracker.holdCounters[prevConfirmed] = 0;
+              tracker.lastReleaseTime = now;
+              tracker.lastReleasedSlot = prevConfirmed;
+              return [false, false, false, false, false];
+            }
+            return [0, 1, 2, 3, 4].map(i => i === prevConfirmed);
+          }
+          return [false, false, false, false, false];
+        }
+
+        if (prevConfirmed !== -1) {
+          tracker.confirmedStates[prevConfirmed] = false;
+          tracker.holdCounters[prevConfirmed] = 0;
+          tracker.lastReleaseTime = now;
+          tracker.lastReleasedSlot = prevConfirmed;
+        }
+
+        if (tracker.candidateSlot !== rawCandidate) {
+          tracker.candidateSlot = rawCandidate;
+          tracker.candidateSince = now;
+        }
+
+        const targetTips = SLOT_TIP_INDICES[rawCandidate] || [0, 1, 2, 3, 4];
+        let targetTipSpeed = 0;
+        for (const idx of targetTips) {
+          if (tipSpeeds[idx] > targetTipSpeed) targetTipSpeed = tipSpeeds[idx];
+        }
+
+        const isSubsetDrop =
+          (tracker.lastReleasedSlot === 2 && rawCandidate === 1) ||
+          (tracker.lastReleasedSlot === 3 && (rawCandidate === 0 || rawCandidate === 4));
+        const justSwitched = (now - tracker.lastReleaseTime) < 150;
+        const requiredDwellMs = cfg.onsetDwellMs
+          + (justSwitched ? cfg.switchBonusMs : 0)
+          + (isSubsetDrop && justSwitched ? cfg.subsetDropBonusMs : 0);
+
+        const heldMs = now - tracker.candidateSince;
+        const fingersSettled = targetTipSpeed <= cfg.settleSpeedMax;
+
+        if (heldMs >= requiredDwellMs && (fingersSettled || heldMs >= requiredDwellMs + 16)) {
+          for (let i = 0; i < 5; i++) {
+            tracker.confirmedStates[i] = (i === rawCandidate);
+            tracker.holdCounters[i] = 0;
+          }
+          return [0, 1, 2, 3, 4].map(i => i === rawCandidate);
+        }
+
+        return [false, false, false, false, false];
+      }
+
+      // กรณีปิด "ทีละ 1 ท่า/มือ"
+      const justSwitchedMulti = (now - tracker.lastReleaseTime) < 150;
+      const requiredMultiDwell = cfg.onsetDwellMs + (justSwitchedMulti ? cfg.switchBonusMs : 0);
+
       for (let i = 0; i < 5; i++) {
-        if (tracker.rawStates[i] !== tracker.confirmedStates[i]) {
-          tracker.holdCounters[i]++;
-          if (tracker.holdCounters[i] >= cfg.confirmFrames) {
-            tracker.confirmedStates[i] = tracker.rawStates[i];
+        if (tracker.rawStates[i]) {
+          if (!tracker.confirmedStates[i]) {
+            if (tracker.slotCandidateSince[i] === 0) {
+              tracker.slotCandidateSince[i] = now;
+            }
+            const targetTips = SLOT_TIP_INDICES[i] || [0, 1, 2, 3, 4];
+            let targetTipSpeed = 0;
+            for (const idx of targetTips) {
+              if (tipSpeeds[idx] > targetTipSpeed) targetTipSpeed = tipSpeeds[idx];
+            }
+            const held = now - tracker.slotCandidateSince[i];
+            if (held >= requiredMultiDwell && (targetTipSpeed <= cfg.settleSpeedMax || held >= requiredMultiDwell + 16)) {
+              tracker.confirmedStates[i] = true;
+              tracker.holdCounters[i] = 0;
+            }
+          } else {
             tracker.holdCounters[i] = 0;
           }
         } else {
-          tracker.holdCounters[i] = 0;
-        }
-      }
-
-      if (soloFingerToggle.checked) {
-        let bestIdx = -1;
-        let bestScore = -1;
-        for (let i = 0; i < 5; i++) {
-          if (tracker.confirmedStates[i] && tracker.scores[i] > bestScore) {
-            bestScore = tracker.scores[i];
-            bestIdx = i;
+          tracker.slotCandidateSince[i] = 0;
+          if (tracker.confirmedStates[i]) {
+            tracker.holdCounters[i]++;
+            if (tracker.holdCounters[i] >= 2) {
+              tracker.confirmedStates[i] = false;
+              tracker.holdCounters[i] = 0;
+              tracker.lastReleaseTime = now;
+              tracker.lastReleasedSlot = i;
+            }
           }
         }
-        return [0, 1, 2, 3, 4].map(i => i === bestIdx);
       }
 
       return [...tracker.confirmedStates];
     }
 
     function resetHandTracker(tracker) {
-      for (let i = 0; i < 4; i++) tracker.fingerExt[i] = false;
       for (let i = 0; i < 5; i++) {
+        tracker.fingerExt[i] = false;
         tracker.confirmedStates[i] = false;
         tracker.rawStates[i] = false;
         tracker.holdCounters[i] = 0;
@@ -2601,8 +2937,19 @@
         tracker.baseY[i] = null;
         tracker.voicingStep[i] = 0;
         tracker.voicingLabels[i] = "";
+        tracker.slotCandidateSince[i] = 0;
       }
       tracker.activeLiftLabel = "";
+      tracker.missingFrames = 0;
+      tracker.lastPalmPos = null;
+      tracker.fistFrames = 0;
+      tracker.fistMuted = false;
+      tracker.openHandFrames = 0;
+      tracker.prevNormTips = null;
+      tracker.candidateSlot = -1;
+      tracker.candidateSince = 0;
+      tracker.lastReleaseTime = 0;
+      tracker.lastReleasedSlot = -1;
     }
 
     // =========================================================================
@@ -2796,15 +3143,23 @@
     }
 
     // =========================================================================
-    // ระบบเสียง Web Audio API + ตัววิเคราะห์คลื่นเสียง (AnalyserNode)
+    // ระบบเสียง Web Audio API (คาแรคเตอร์เสียง + Sustain 0-100% แม่นยำ)
     // =========================================================================
     function getSustainSettings() {
-      const norm = Number(sustainSlider.value) / 100;
+      const val = Number(sustainSlider.value);
+      const norm = val / 100;
+
+      const isZero = norm <= 0.005;
+      const decayMult = isZero ? 0.06 : (0.06 + 5.44 * Math.pow(norm, 2.45));
+      const holdLevel = isZero ? 0.0001 : Math.max(0.02, norm);
+      const releaseSec = isZero ? 0.025 : (0.025 + (0.22 * norm + 0.78 * norm * norm) * 8.475);
+
       return {
         norm,
-        decayMult: 0.35 + norm * 1.9,
-        holdLevel: 0.35 + norm * 0.55,
-        releaseSec: 0.12 + norm * 2.48
+        isZero,
+        decayMult,
+        holdLevel,
+        releaseSec
       };
     }
 
@@ -2897,16 +3252,115 @@
       const voiceGain = audioCtx.createGain();
       voiceGain.connect(synthBus);
       const trackedOscs = [];
+      const extraStopOscs = [];
+      let cleanupTimer = null;
+      let voiceController = null;
+
+      const scheduleNodeCleanup = (stopAtTime) => {
+        if (cleanupTimer) clearTimeout(cleanupTimer);
+        const delayMs = Math.max(80, (stopAtTime - audioCtx.currentTime) * 1000 + 80);
+        cleanupTimer = setTimeout(() => {
+          if (voiceController) activeLingeringVoices.delete(voiceController);
+          try { voiceGain.disconnect(); } catch (_) {}
+          trackedOscs.forEach(({ osc }) => { try { osc.disconnect(); } catch (_) {} });
+          extraStopOscs.forEach(osc => { try { osc.disconnect(); } catch (_) {} });
+        }, delayMs);
+      };
 
       const registerOsc = (osc, mult = 1.0) => {
         trackedOscs.push({ osc, mult });
+      };
+
+      const attachDetuneVibrato = (oscList, rateHz = 5.0, depthCents = 10, delaySec = 0.16) => {
+        const lfo = audioCtx.createOscillator();
+        const lfoGain = audioCtx.createGain();
+        lfo.type = "sine";
+        lfo.frequency.setValueAtTime(rateHz, now);
+        lfoGain.gain.setValueAtTime(0.001, now);
+        lfoGain.gain.linearRampToValueAtTime(depthCents, now + delaySec);
+        lfo.connect(lfoGain);
+        oscList.forEach(o => lfoGain.connect(o.detune));
+        lfo.start(now);
+        extraStopOscs.push(lfo);
+      };
+
+      const attachTremolo = (targetGainNode, rateHz = 5.2, depth = 0.25) => {
+        const lfo = audioCtx.createOscillator();
+        const lfoGain = audioCtx.createGain();
+        lfo.type = "sine";
+        lfo.frequency.setValueAtTime(rateHz, now);
+        lfoGain.gain.setValueAtTime(depth, now);
+        lfo.connect(lfoGain);
+        lfoGain.connect(targetGainNode.gain);
+        lfo.start(now);
+        extraStopOscs.push(lfo);
+      };
+
+      const applyVoiceEnvelope = ({
+        peak,
+        attack = 0.012,
+        isPercussive = true,
+        sustainDur = 4.2,
+        triggerDur = 1.45
+      }) => {
+        const safePeak = Math.max(0.0002, peak);
+        voiceGain.gain.setValueAtTime(0.0001, now);
+
+        if (sus.isZero) {
+          const fastAtk = Math.min(attack, 0.014);
+          const dryDur = 0.17;
+          voiceGain.gain.linearRampToValueAtTime(safePeak, now + fastAtk);
+          voiceGain.gain.exponentialRampToValueAtTime(0.0001, now + dryDur);
+          const stopAt = now + dryDur + 0.04;
+          trackedOscs.forEach(({ osc }) => osc.stop(stopAt));
+          extraStopOscs.forEach(osc => osc.stop(stopAt));
+          scheduleNodeCleanup(stopAt);
+          return;
+        }
+
+        voiceGain.gain.linearRampToValueAtTime(safePeak, now + attack);
+
+        if (!isSustain) {
+          const dur = Math.max(0.18, triggerDur * sus.decayMult);
+          voiceGain.gain.exponentialRampToValueAtTime(0.0001, now + attack + dur);
+          const stopAt = now + attack + dur + 0.05;
+          trackedOscs.forEach(({ osc }) => osc.stop(stopAt));
+          extraStopOscs.forEach(osc => osc.stop(stopAt));
+          scheduleNodeCleanup(stopAt);
+          return;
+        }
+
+        if (sus.norm >= 0.98) {
+          if (isPercussive) {
+            voiceGain.gain.setTargetAtTime(safePeak * 0.44, now + attack + 0.06, 1.5);
+          }
+          return;
+        }
+
+        if (isPercussive) {
+          const dur = Math.max(0.22, sustainDur * sus.decayMult);
+          voiceGain.gain.exponentialRampToValueAtTime(0.0001, now + attack + dur);
+          const stopAt = now + attack + dur + 0.05;
+          trackedOscs.forEach(({ osc }) => osc.stop(stopAt));
+          extraStopOscs.forEach(osc => osc.stop(stopAt));
+          scheduleNodeCleanup(stopAt);
+        } else {
+          const holdTarget = Math.max(0.0002, safePeak * sus.holdLevel);
+          const fadeDur = Math.max(0.45, 4.5 * sus.decayMult);
+          voiceGain.gain.exponentialRampToValueAtTime(holdTarget, now + attack + 0.45);
+          voiceGain.gain.exponentialRampToValueAtTime(0.0001, now + attack + 0.45 + fadeDur);
+          const stopAt = now + attack + 0.45 + fadeDur + 0.05;
+          trackedOscs.forEach(({ osc }) => osc.stop(stopAt));
+          extraStopOscs.forEach(osc => osc.stop(stopAt));
+          scheduleNodeCleanup(stopAt);
+        }
       };
 
       if (preset === "grand_piano") {
         const pianoFilter = audioCtx.createBiquadFilter();
         pianoFilter.type = "lowpass";
         pianoFilter.frequency.setValueAtTime(Math.min(freq * 9, 6800), now);
-        pianoFilter.frequency.exponentialRampToValueAtTime(Math.max(freq * 2.2, 420), now + 1.1 * sus.decayMult);
+        pianoFilter.frequency.exponentialRampToValueAtTime(Math.max(freq * 2.2, 420), now + Math.max(0.15, 1.1 * sus.decayMult));
         pianoFilter.connect(voiceGain);
 
         const partials = [
@@ -2922,29 +3376,25 @@
           const pGain = audioCtx.createGain();
           osc.type = p.type;
           osc.frequency.setValueAtTime(freq * p.ratio, now);
-
           pGain.gain.setValueAtTime(p.gain, now);
-          pGain.gain.exponentialRampToValueAtTime(0.0001, now + p.decay * sus.decayMult);
-
+          if (sus.norm < 0.98) {
+            pGain.gain.exponentialRampToValueAtTime(0.0001, now + Math.max(0.14, p.decay * sus.decayMult));
+          } else {
+            pGain.gain.setTargetAtTime(p.gain * 0.35, now + 0.1, 1.6);
+          }
           osc.connect(pGain);
           pGain.connect(pianoFilter);
           osc.start(now);
           registerOsc(osc, p.ratio);
         });
 
-        const peak = 0.14 * volumeScale;
-        voiceGain.gain.setValueAtTime(0.0001, now);
-        voiceGain.gain.linearRampToValueAtTime(peak, now + 0.008);
-
-        const totalDur = (isSustain ? 4.4 : 1.55) * sus.decayMult;
-        voiceGain.gain.exponentialRampToValueAtTime(0.0001, now + totalDur);
-        trackedOscs.forEach(({ osc }) => osc.stop(now + totalDur + 0.05));
+        applyVoiceEnvelope({ peak: 0.14 * volumeScale, attack: 0.008, isPercussive: true, sustainDur: 4.4, triggerDur: 1.55 });
 
       } else if (preset === "upright_piano") {
         const uprightFilter = audioCtx.createBiquadFilter();
         uprightFilter.type = "lowpass";
         uprightFilter.frequency.setValueAtTime(Math.min(freq * 11, 7500), now);
-        uprightFilter.frequency.exponentialRampToValueAtTime(Math.max(freq * 2.8, 520), now + 0.85 * sus.decayMult);
+        uprightFilter.frequency.exponentialRampToValueAtTime(Math.max(freq * 2.8, 520), now + Math.max(0.15, 0.85 * sus.decayMult));
         uprightFilter.connect(voiceGain);
 
         const partials = [
@@ -2959,23 +3409,53 @@
           const pGain = audioCtx.createGain();
           osc.type = p.type;
           osc.frequency.setValueAtTime(freq * p.ratio, now);
-
           pGain.gain.setValueAtTime(p.gain, now);
-          pGain.gain.exponentialRampToValueAtTime(0.0001, now + p.decay * sus.decayMult);
-
+          if (sus.norm < 0.98) {
+            pGain.gain.exponentialRampToValueAtTime(0.0001, now + Math.max(0.14, p.decay * sus.decayMult));
+          } else {
+            pGain.gain.setTargetAtTime(p.gain * 0.35, now + 0.1, 1.5);
+          }
           osc.connect(pGain);
           pGain.connect(uprightFilter);
           osc.start(now);
           registerOsc(osc, p.ratio);
         });
 
-        const peak = 0.13 * volumeScale;
-        voiceGain.gain.setValueAtTime(0.0001, now);
-        voiceGain.gain.linearRampToValueAtTime(peak, now + 0.007);
+        applyVoiceEnvelope({ peak: 0.13 * volumeScale, attack: 0.007, isPercussive: true, sustainDur: 3.5, triggerDur: 1.35 });
 
-        const totalDur = (isSustain ? 3.5 : 1.35) * sus.decayMult;
-        voiceGain.gain.exponentialRampToValueAtTime(0.0001, now + totalDur);
-        trackedOscs.forEach(({ osc }) => osc.stop(now + totalDur + 0.05));
+      } else if (preset === "felt_piano") {
+        const feltFilter = audioCtx.createBiquadFilter();
+        feltFilter.type = "lowpass";
+        feltFilter.Q.value = 0.8;
+        feltFilter.frequency.setValueAtTime(Math.min(freq * 3.4, 1400), now);
+        feltFilter.frequency.exponentialRampToValueAtTime(Math.max(freq * 1.4, 260), now + Math.max(0.15, 1.4 * sus.decayMult));
+        feltFilter.connect(voiceGain);
+
+        const layers = [
+          { ratio: 1.0,    type: "sine",     gain: 0.68, decay: 4.8 },
+          { ratio: 0.9993, type: "triangle", gain: 0.32, decay: 4.0 },
+          { ratio: 0.5,    type: "sine",     gain: 0.22, decay: 3.5 },
+          { ratio: 2.0,    type: "sine",     gain: 0.09, decay: 1.2 }
+        ];
+
+        layers.forEach(p => {
+          const osc = audioCtx.createOscillator();
+          const pGain = audioCtx.createGain();
+          osc.type = p.type;
+          osc.frequency.setValueAtTime(freq * p.ratio, now);
+          pGain.gain.setValueAtTime(p.gain, now);
+          if (sus.norm < 0.98) {
+            pGain.gain.exponentialRampToValueAtTime(0.0001, now + Math.max(0.14, p.decay * sus.decayMult));
+          } else {
+            pGain.gain.setTargetAtTime(p.gain * 0.38, now + 0.1, 1.7);
+          }
+          osc.connect(pGain);
+          pGain.connect(feltFilter);
+          osc.start(now);
+          registerOsc(osc, p.ratio);
+        });
+
+        applyVoiceEnvelope({ peak: 0.16 * volumeScale, attack: 0.024, isPercussive: true, sustainDur: 4.6, triggerDur: 1.7 });
 
       } else if (preset === "dx_piano") {
         const body = audioCtx.createOscillator();
@@ -2987,7 +3467,6 @@
 
         body.type = "sine";
         body.frequency.setValueAtTime(freq, now);
-
         body2.type = "triangle";
         body2.frequency.setValueAtTime(freq * 2.001, now);
 
@@ -3003,7 +3482,7 @@
 
         const body2Gain = audioCtx.createGain();
         body2Gain.gain.setValueAtTime(0.28, now);
-        body2Gain.gain.exponentialRampToValueAtTime(0.05, now + 1.2 * sus.decayMult);
+        body2Gain.gain.exponentialRampToValueAtTime(0.05, now + Math.max(0.15, 1.2 * sus.decayMult));
 
         body.connect(voiceGain);
         body2.connect(body2Gain);
@@ -3018,52 +3497,592 @@
         chime.start(now);   registerOsc(chime, 7.0);
         sparkle.start(now); registerOsc(sparkle, 14.0);
 
-        const peak = 0.11 * volumeScale;
-        voiceGain.gain.setValueAtTime(0.0001, now);
-        voiceGain.gain.linearRampToValueAtTime(peak, now + 0.01);
+        applyVoiceEnvelope({ peak: 0.11 * volumeScale, attack: 0.01, isPercussive: false, sustainDur: 3.5, triggerDur: 1.4 });
 
-        if (!isSustain) {
-          const dur = 1.4 * sus.decayMult;
-          voiceGain.gain.exponentialRampToValueAtTime(0.0001, now + dur);
-          trackedOscs.forEach(({ osc }) => osc.stop(now + dur + 0.05));
-        } else {
-          voiceGain.gain.exponentialRampToValueAtTime(peak * sus.holdLevel, now + 0.65);
-        }
+      } else if (preset === "wurlitzer") {
+        const wurliFilter = audioCtx.createBiquadFilter();
+        wurliFilter.type = "bandpass";
+        wurliFilter.frequency.setValueAtTime(Math.min(freq * 2.5, 2200), now);
+        wurliFilter.Q.value = 0.7;
 
-      } else if (preset === "celesta") {
+        const tremoloBus = audioCtx.createGain();
+        tremoloBus.gain.setValueAtTime(0.85, now);
+        attachTremolo(tremoloBus, 5.2, 0.18);
+
+        wurliFilter.connect(tremoloBus);
+        tremoloBus.connect(voiceGain);
+
+        const osc1 = audioCtx.createOscillator();
+        const osc2 = audioCtx.createOscillator();
+        const reed = audioCtx.createOscillator();
+        const reedGain = audioCtx.createGain();
+
+        osc1.type = "triangle";
+        osc1.frequency.setValueAtTime(freq, now);
+        osc2.type = "sine";
+        osc2.frequency.setValueAtTime(freq * 1.0015, now);
+        reed.type = "square";
+        reed.frequency.setValueAtTime(freq * 3.0, now);
+        reedGain.gain.setValueAtTime(0.08, now);
+        reedGain.gain.exponentialRampToValueAtTime(0.004, now + 0.35);
+
+        osc1.connect(wurliFilter);
+        osc2.connect(wurliFilter);
+        reed.connect(reedGain);
+        reedGain.connect(wurliFilter);
+
+        osc1.start(now); registerOsc(osc1, 1.0);
+        osc2.start(now); registerOsc(osc2, 1.0015);
+        reed.start(now); registerOsc(reed, 3.0);
+
+        applyVoiceEnvelope({ peak: 0.15 * volumeScale, attack: 0.012, isPercussive: false, sustainDur: 3.4, triggerDur: 1.25 });
+
+      } else if (preset === "clavinet") {
+        const clavFilter = audioCtx.createBiquadFilter();
+        clavFilter.type = "lowpass";
+        clavFilter.Q.value = 3.4;
+        clavFilter.frequency.setValueAtTime(3800, now);
+        clavFilter.frequency.exponentialRampToValueAtTime(750, now + Math.max(0.12, 0.35 * sus.decayMult));
+        clavFilter.connect(voiceGain);
+
+        const osc1 = audioCtx.createOscillator();
+        const osc2 = audioCtx.createOscillator();
+        const osc2Gain = audioCtx.createGain();
+
+        osc1.type = "sawtooth";
+        osc1.frequency.setValueAtTime(freq, now);
+        osc2.type = "square";
+        osc2.frequency.setValueAtTime(freq * 2.0, now);
+        osc2Gain.gain.setValueAtTime(0.35, now);
+
+        osc1.connect(clavFilter);
+        osc2.connect(osc2Gain);
+        osc2Gain.connect(clavFilter);
+
+        osc1.start(now); registerOsc(osc1, 1.0);
+        osc2.start(now); registerOsc(osc2, 2.0);
+
+        applyVoiceEnvelope({ peak: 0.105 * volumeScale, attack: 0.004, isPercussive: true, sustainDur: 1.8, triggerDur: 0.75 });
+
+      } else if (preset === "harpsichord") {
+        const hpFilter = audioCtx.createBiquadFilter();
+        hpFilter.type = "highpass";
+        hpFilter.frequency.setValueAtTime(280, now);
+        hpFilter.connect(voiceGain);
+
+        const osc1 = audioCtx.createOscillator();
+        const osc2 = audioCtx.createOscillator();
+        const osc2Gain = audioCtx.createGain();
+
+        osc1.type = "sawtooth";
+        osc1.frequency.setValueAtTime(freq, now);
+        osc2.type = "sawtooth";
+        osc2.frequency.setValueAtTime(freq * 2.0, now);
+        osc2Gain.gain.setValueAtTime(0.45, now);
+
+        osc1.connect(hpFilter);
+        osc2.connect(osc2Gain);
+        osc2Gain.connect(hpFilter);
+
+        osc1.start(now); registerOsc(osc1, 1.0);
+        osc2.start(now); registerOsc(osc2, 2.0);
+
+        applyVoiceEnvelope({ peak: 0.095 * volumeScale, attack: 0.004, isPercussive: true, sustainDur: 2.1, triggerDur: 0.95 });
+
+      } else if (preset === "warm_synth") {
+        const warmFilter = audioCtx.createBiquadFilter();
+        warmFilter.type = "lowpass";
+        warmFilter.Q.value = 1.4;
+        warmFilter.frequency.setValueAtTime(720, now);
+        warmFilter.frequency.linearRampToValueAtTime(1450, now + 0.35);
+        warmFilter.connect(voiceGain);
+
+        const layers = [
+          { ratio: 0.994, type: "sawtooth", gain: 0.34 },
+          { ratio: 1.0,   type: "triangle", gain: 0.52 },
+          { ratio: 1.006, type: "sawtooth", gain: 0.34 },
+          { ratio: 0.5,   type: "sine",     gain: 0.36 }
+        ];
+
+        layers.forEach(l => {
+          const osc = audioCtx.createOscillator();
+          const lGain = audioCtx.createGain();
+          osc.type = l.type;
+          osc.frequency.setValueAtTime(freq * l.ratio, now);
+          lGain.gain.value = l.gain;
+          osc.connect(lGain);
+          lGain.connect(warmFilter);
+          osc.start(now);
+          registerOsc(osc, l.ratio);
+        });
+
+        applyVoiceEnvelope({ peak: 0.095 * volumeScale, attack: isSustain ? 0.11 : 0.04, isPercussive: false, triggerDur: 1.35 });
+
+      } else if (preset === "retro_synth") {
+        const retroFilter = audioCtx.createBiquadFilter();
+        retroFilter.type = "lowpass";
+        retroFilter.Q.value = 3.2;
+        retroFilter.frequency.setValueAtTime(360, now);
+        retroFilter.frequency.exponentialRampToValueAtTime(2900, now + 0.14);
+        retroFilter.frequency.exponentialRampToValueAtTime(1150, now + 0.85);
+        retroFilter.connect(voiceGain);
+
+        const osc1 = audioCtx.createOscillator();
+        const osc2 = audioCtx.createOscillator();
+        const oscSub = audioCtx.createOscillator();
+        const subGain = audioCtx.createGain();
+
+        osc1.type = "sawtooth";
+        osc1.frequency.setValueAtTime(freq * 0.993, now);
+        osc2.type = "square";
+        osc2.frequency.setValueAtTime(freq * 1.007, now);
+        oscSub.type = "sawtooth";
+        oscSub.frequency.setValueAtTime(freq * 0.5, now);
+        subGain.gain.value = 0.35;
+
+        osc1.connect(retroFilter);
+        osc2.connect(retroFilter);
+        oscSub.connect(subGain);
+        subGain.connect(retroFilter);
+
+        osc1.start(now);   registerOsc(osc1, 0.993);
+        osc2.start(now);   registerOsc(osc2, 1.007);
+        oscSub.start(now); registerOsc(oscSub, 0.5);
+
+        applyVoiceEnvelope({ peak: 0.088 * volumeScale, attack: 0.02, isPercussive: false, triggerDur: 1.3 });
+
+      } else if (preset === "analog_poly") {
+        const polyFilter = audioCtx.createBiquadFilter();
+        polyFilter.type = "lowpass";
+        polyFilter.Q.value = 1.8;
+        polyFilter.frequency.setValueAtTime(2100, now);
+        polyFilter.connect(voiceGain);
+
+        [0.995, 1.005].forEach(ratio => {
+          const osc = audioCtx.createOscillator();
+          osc.type = "sawtooth";
+          osc.frequency.setValueAtTime(freq * ratio, now);
+          osc.connect(polyFilter);
+          osc.start(now);
+          registerOsc(osc, ratio);
+        });
+
+        applyVoiceEnvelope({ peak: 0.085 * volumeScale, attack: 0.03, isPercussive: false, triggerDur: 1.25 });
+
+      } else if (preset === "glass_pad") {
+        const partials = [
+          { ratio: 1.0,  gain: 0.55 },
+          { ratio: 2.0,  gain: 0.30 },
+          { ratio: 3.01, gain: 0.14 },
+          { ratio: 4.02, gain: 0.07 }
+        ];
+
+        partials.forEach(p => {
+          const osc = audioCtx.createOscillator();
+          const pGain = audioCtx.createGain();
+          osc.type = "sine";
+          osc.frequency.setValueAtTime(freq * p.ratio, now);
+          pGain.gain.value = p.gain;
+          osc.connect(pGain);
+          pGain.connect(voiceGain);
+          osc.start(now);
+          registerOsc(osc, p.ratio);
+        });
+
+        applyVoiceEnvelope({ peak: 0.095 * volumeScale, attack: isSustain ? 0.28 : 0.09, isPercussive: false, triggerDur: 1.6 });
+
+      } else if (preset === "dream_pluck") {
+        const pluckFilter = audioCtx.createBiquadFilter();
+        pluckFilter.type = "lowpass";
+        pluckFilter.Q.value = 2.8;
+        pluckFilter.frequency.setValueAtTime(3600, now);
+        pluckFilter.frequency.exponentialRampToValueAtTime(420, now + Math.max(0.12, 0.28 * sus.decayMult));
+        pluckFilter.connect(voiceGain);
+
+        const osc1 = audioCtx.createOscillator();
+        const osc2 = audioCtx.createOscillator();
+        const osc3 = audioCtx.createOscillator();
+        const osc3Gain = audioCtx.createGain();
+
+        osc1.type = "triangle";
+        osc1.frequency.setValueAtTime(freq * 0.997, now);
+        osc2.type = "sawtooth";
+        osc2.frequency.setValueAtTime(freq * 1.003, now);
+        osc3.type = "sine";
+        osc3.frequency.setValueAtTime(freq * 2.0, now);
+        osc3Gain.gain.value = 0.28;
+
+        osc1.connect(pluckFilter);
+        osc2.connect(pluckFilter);
+        osc3.connect(osc3Gain);
+        osc3Gain.connect(pluckFilter);
+
+        osc1.start(now); registerOsc(osc1, 0.997);
+        osc2.start(now); registerOsc(osc2, 1.003);
+        osc3.start(now); registerOsc(osc3, 2.0);
+
+        applyVoiceEnvelope({ peak: 0.13 * volumeScale, attack: 0.008, isPercussive: true, sustainDur: 2.4, triggerDur: 1.1 });
+
+      } else if (preset === "cyber_lead") {
+        const leadFilter = audioCtx.createBiquadFilter();
+        leadFilter.type = "lowpass";
+        leadFilter.Q.value = 2.4;
+        leadFilter.frequency.setValueAtTime(2400, now);
+        leadFilter.connect(voiceGain);
+
+        const osc1 = audioCtx.createOscillator();
+        const osc2 = audioCtx.createOscillator();
+        osc1.type = "square";
+        osc1.frequency.setValueAtTime(freq, now);
+        osc2.type = "triangle";
+        osc2.frequency.setValueAtTime(freq * 1.001, now);
+
+        attachDetuneVibrato([osc1, osc2], 5.6, 14, 0.18);
+
+        osc1.connect(leadFilter);
+        osc2.connect(leadFilter);
+        osc1.start(now); registerOsc(osc1, 1.0);
+        osc2.start(now); registerOsc(osc2, 1.001);
+
+        applyVoiceEnvelope({ peak: 0.082 * volumeScale, attack: 0.025, isPercussive: false, triggerDur: 1.2 });
+
+      } else if (preset === "sub_pad") {
+        const subFilter = audioCtx.createBiquadFilter();
+        subFilter.type = "lowpass";
+        subFilter.frequency.setValueAtTime(540, now);
+        subFilter.connect(voiceGain);
+
+        const oscSub = audioCtx.createOscillator();
+        const oscMid = audioCtx.createOscillator();
+        oscSub.type = "sine";
+        oscSub.frequency.setValueAtTime(freq * 0.5, now);
+        oscMid.type = "triangle";
+        oscMid.frequency.setValueAtTime(freq, now);
+
+        oscSub.connect(subFilter);
+        oscMid.connect(subFilter);
+        oscSub.start(now); registerOsc(oscSub, 0.5);
+        oscMid.start(now); registerOsc(oscMid, 1.0);
+
+        applyVoiceEnvelope({ peak: 0.14 * volumeScale, attack: isSustain ? 0.24 : 0.08, isPercussive: false, triggerDur: 1.45 });
+
+      } else if (preset === "aurora_pad") {
+        const aurFilter = audioCtx.createBiquadFilter();
+        aurFilter.type = "lowpass";
+        aurFilter.frequency.setValueAtTime(2600, now);
+        aurFilter.connect(voiceGain);
+
+        const ratios = [1.0, 1.996, 2.004, 3.0];
+        const oscRefs = [];
+        ratios.forEach((r, idx) => {
+          const osc = audioCtx.createOscillator();
+          const g = audioCtx.createGain();
+          osc.type = idx === 0 ? "triangle" : "sine";
+          osc.frequency.setValueAtTime(freq * r, now);
+          g.gain.value = idx === 0 ? 0.45 : 0.22;
+          osc.connect(g);
+          g.connect(aurFilter);
+          osc.start(now);
+          registerOsc(osc, r);
+          oscRefs.push(osc);
+        });
+
+        attachDetuneVibrato(oscRefs, 3.8, 12, 0.25);
+
+        applyVoiceEnvelope({ peak: 0.095 * volumeScale, attack: isSustain ? 0.34 : 0.1, isPercussive: false, triggerDur: 1.65 });
+
+      } else if (preset === "dreamy_string") {
+        const dreamFilter = audioCtx.createBiquadFilter();
+        dreamFilter.type = "lowpass";
+        dreamFilter.Q.value = 1.1;
+        dreamFilter.frequency.setValueAtTime(1750, now);
+        dreamFilter.connect(voiceGain);
+
+        const ensemble = [
+          { ratio: 0.992, type: "sawtooth", gain: 0.28 },
+          { ratio: 0.997, type: "triangle", gain: 0.35 },
+          { ratio: 1.003, type: "triangle", gain: 0.35 },
+          { ratio: 1.008, type: "sawtooth", gain: 0.28 },
+          { ratio: 2.0,   type: "sine",     gain: 0.22 }
+        ];
+
+        const oscRefs = [];
+        ensemble.forEach(e => {
+          const osc = audioCtx.createOscillator();
+          const g = audioCtx.createGain();
+          osc.type = e.type;
+          osc.frequency.setValueAtTime(freq * e.ratio, now);
+          g.gain.value = e.gain;
+          osc.connect(g);
+          g.connect(dreamFilter);
+          osc.start(now);
+          registerOsc(osc, e.ratio);
+          oscRefs.push(osc);
+        });
+
+        attachDetuneVibrato(oscRefs, 4.4, 11, 0.28);
+
+        applyVoiceEnvelope({ peak: 0.075 * volumeScale, attack: isSustain ? 0.34 : 0.11, isPercussive: false, triggerDur: 1.65 });
+
+      } else if (preset === "strings") {
+        const strFilter = audioCtx.createBiquadFilter();
+        strFilter.type = "lowpass";
+        strFilter.frequency.setValueAtTime(1450, now);
+        strFilter.connect(voiceGain);
+
+        [0.994, 1.0, 1.006].forEach(detuneRatio => {
+          const osc = audioCtx.createOscillator();
+          osc.type = "sawtooth";
+          osc.frequency.setValueAtTime(freq * detuneRatio, now);
+          osc.connect(strFilter);
+          osc.start(now);
+          registerOsc(osc, detuneRatio);
+        });
+
+        applyVoiceEnvelope({ peak: 0.065 * volumeScale, attack: isSustain ? 0.24 : 0.07, isPercussive: false, triggerDur: 1.4 });
+
+      } else if (preset === "cello_ensemble") {
+        const celloFilter = audioCtx.createBiquadFilter();
+        celloFilter.type = "lowpass";
+        celloFilter.Q.value = 1.5;
+        celloFilter.frequency.setValueAtTime(980, now);
+        celloFilter.connect(voiceGain);
+
+        const cellos = [
+          { ratio: 0.498, gain: 0.42 },
+          { ratio: 0.502, gain: 0.42 },
+          { ratio: 0.997, gain: 0.32 },
+          { ratio: 1.003, gain: 0.32 }
+        ];
+
+        cellos.forEach(c => {
+          const osc = audioCtx.createOscillator();
+          const g = audioCtx.createGain();
+          osc.type = "sawtooth";
+          osc.frequency.setValueAtTime(freq * c.ratio, now);
+          g.gain.value = c.gain;
+          osc.connect(g);
+          g.connect(celloFilter);
+          osc.start(now);
+          registerOsc(osc, c.ratio);
+        });
+
+        applyVoiceEnvelope({ peak: 0.075 * volumeScale, attack: isSustain ? 0.26 : 0.08, isPercussive: false, triggerDur: 1.45 });
+
+      } else if (preset === "pizzicato") {
+        const pizzFilter = audioCtx.createBiquadFilter();
+        pizzFilter.type = "lowpass";
+        pizzFilter.frequency.setValueAtTime(2200, now);
+        pizzFilter.frequency.exponentialRampToValueAtTime(480, now + Math.max(0.1, 0.24 * sus.decayMult));
+        pizzFilter.connect(voiceGain);
+
+        [0.996, 1.004].forEach(r => {
+          const osc = audioCtx.createOscillator();
+          osc.type = "triangle";
+          osc.frequency.setValueAtTime(freq * r, now);
+          osc.connect(pizzFilter);
+          osc.start(now);
+          registerOsc(osc, r);
+        });
+
+        applyVoiceEnvelope({ peak: 0.15 * volumeScale, attack: 0.006, isPercussive: true, sustainDur: 0.85, triggerDur: 0.45 });
+
+      } else if (preset === "harp") {
+        const harpFilter = audioCtx.createBiquadFilter();
+        harpFilter.type = "lowpass";
+        harpFilter.frequency.setValueAtTime(3200, now);
+        harpFilter.frequency.exponentialRampToValueAtTime(650, now + Math.max(0.14, 0.9 * sus.decayMult));
+        harpFilter.connect(voiceGain);
+
+        const osc1 = audioCtx.createOscillator();
+        const osc2 = audioCtx.createOscillator();
+        const osc2Gain = audioCtx.createGain();
+        osc1.type = "triangle";
+        osc1.frequency.setValueAtTime(freq, now);
+        osc2.type = "sine";
+        osc2.frequency.setValueAtTime(freq * 2.0, now);
+        osc2Gain.gain.setValueAtTime(0.32, now);
+        osc2Gain.gain.exponentialRampToValueAtTime(0.02, now + Math.max(0.14, 0.7 * sus.decayMult));
+
+        osc1.connect(harpFilter);
+        osc2.connect(osc2Gain);
+        osc2Gain.connect(harpFilter);
+
+        osc1.start(now); registerOsc(osc1, 1.0);
+        osc2.start(now); registerOsc(osc2, 2.0);
+
+        applyVoiceEnvelope({ peak: 0.145 * volumeScale, attack: 0.009, isPercussive: true, sustainDur: 3.4, triggerDur: 1.5 });
+
+      } else if (preset === "choir_pad") {
+        const formant1 = audioCtx.createBiquadFilter();
+        formant1.type = "bandpass";
+        formant1.frequency.setValueAtTime(720, now);
+        formant1.Q.value = 3.2;
+
+        const formant2 = audioCtx.createBiquadFilter();
+        formant2.type = "bandpass";
+        formant2.frequency.setValueAtTime(1260, now);
+        formant2.Q.value = 3.8;
+
+        const f2Gain = audioCtx.createGain();
+        f2Gain.gain.value = 0.7;
+
+        formant1.connect(voiceGain);
+        formant2.connect(f2Gain);
+        f2Gain.connect(voiceGain);
+
+        const oscRefs = [];
+        [0.995, 1.0, 1.005].forEach(r => {
+          const osc = audioCtx.createOscillator();
+          osc.type = "sawtooth";
+          osc.frequency.setValueAtTime(freq * r, now);
+          osc.connect(formant1);
+          osc.connect(formant2);
+          osc.start(now);
+          registerOsc(osc, r);
+          oscRefs.push(osc);
+        });
+
+        attachDetuneVibrato(oscRefs, 4.8, 12, 0.25);
+
+        applyVoiceEnvelope({ peak: 0.17 * volumeScale, attack: isSustain ? 0.32 : 0.1, isPercussive: false, triggerDur: 1.55 });
+
+      } else if (preset === "horn") {
+        const hornFilter = audioCtx.createBiquadFilter();
+        hornFilter.type = "lowpass";
+        hornFilter.Q.value = 2.0;
+        hornFilter.frequency.setValueAtTime(290, now);
+        hornFilter.frequency.exponentialRampToValueAtTime(1750, now + 0.13);
+        hornFilter.frequency.setTargetAtTime(1320, now + 0.15, 0.2);
+        hornFilter.connect(voiceGain);
+
+        const osc1 = audioCtx.createOscillator();
+        const osc2 = audioCtx.createOscillator();
+        const oscSub = audioCtx.createOscillator();
+        const subGain = audioCtx.createGain();
+
+        osc1.type = "sawtooth";
+        osc1.frequency.setValueAtTime(freq * 0.998, now);
+        osc2.type = "triangle";
+        osc2.frequency.setValueAtTime(freq * 1.002, now);
+        oscSub.type = "sine";
+        oscSub.frequency.setValueAtTime(freq * 0.5, now);
+        subGain.gain.value = 0.28;
+
+        osc1.connect(hornFilter);
+        osc2.connect(hornFilter);
+        oscSub.connect(subGain);
+        subGain.connect(hornFilter);
+
+        osc1.start(now);   registerOsc(osc1, 0.998);
+        osc2.start(now);   registerOsc(osc2, 1.002);
+        oscSub.start(now); registerOsc(oscSub, 0.5);
+
+        applyVoiceEnvelope({ peak: 0.11 * volumeScale, attack: isSustain ? 0.085 : 0.04, isPercussive: false, triggerDur: 1.3 });
+
+      } else if (preset === "brass_section") {
+        const brassFilter = audioCtx.createBiquadFilter();
+        brassFilter.type = "lowpass";
+        brassFilter.Q.value = 2.3;
+        brassFilter.frequency.setValueAtTime(420, now);
+        brassFilter.frequency.exponentialRampToValueAtTime(3200, now + 0.11);
+        brassFilter.frequency.setTargetAtTime(2200, now + 0.14, 0.18);
+        brassFilter.connect(voiceGain);
+
+        [0.995, 1.0, 1.005].forEach(r => {
+          const osc = audioCtx.createOscillator();
+          osc.type = "sawtooth";
+          osc.frequency.setValueAtTime(freq * r, now);
+          osc.connect(brassFilter);
+          osc.start(now);
+          registerOsc(osc, r);
+        });
+
+        applyVoiceEnvelope({ peak: 0.082 * volumeScale, attack: 0.065, isPercussive: false, triggerDur: 1.25 });
+
+      } else if (preset === "muted_trumpet") {
+        const muteFilter = audioCtx.createBiquadFilter();
+        muteFilter.type = "bandpass";
+        muteFilter.frequency.setValueAtTime(1480, now);
+        muteFilter.Q.value = 3.8;
+        muteFilter.connect(voiceGain);
+
+        const osc1 = audioCtx.createOscillator();
+        const osc2 = audioCtx.createOscillator();
+        osc1.type = "sawtooth";
+        osc1.frequency.setValueAtTime(freq, now);
+        osc2.type = "square";
+        osc2.frequency.setValueAtTime(freq * 1.001, now);
+
+        attachDetuneVibrato([osc1, osc2], 5.4, 15, 0.2);
+
+        osc1.connect(muteFilter);
+        osc2.connect(muteFilter);
+        osc1.start(now); registerOsc(osc1, 1.0);
+        osc2.start(now); registerOsc(osc2, 1.001);
+
+        applyVoiceEnvelope({ peak: 0.16 * volumeScale, attack: 0.045, isPercussive: false, triggerDur: 1.2 });
+
+      } else if (preset === "flute") {
         const osc1 = audioCtx.createOscillator();
         const osc2 = audioCtx.createOscillator();
         const osc2Gain = audioCtx.createGain();
 
         osc1.type = "sine";
-        osc1.frequency.setValueAtTime(freq * 2, now);
-
+        osc1.frequency.setValueAtTime(freq, now);
         osc2.type = "sine";
-        osc2.frequency.setValueAtTime(freq * 6, now);
-        osc2Gain.gain.setValueAtTime(0.06 * volumeScale, now);
-        osc2Gain.gain.exponentialRampToValueAtTime(0.0001, now + 0.12);
+        osc2.frequency.setValueAtTime(freq * 2.0, now);
+        osc2Gain.gain.value = 0.16;
+
+        attachDetuneVibrato([osc1, osc2], 5.0, 12, 0.22);
 
         osc1.connect(voiceGain);
         osc2.connect(osc2Gain);
         osc2Gain.connect(voiceGain);
 
-        osc1.start(now); registerOsc(osc1, 2.0);
-        osc2.start(now); registerOsc(osc2, 6.0);
+        osc1.start(now); registerOsc(osc1, 1.0);
+        osc2.start(now); registerOsc(osc2, 2.0);
 
-        const peak = 0.11 * volumeScale;
-        voiceGain.gain.setValueAtTime(0.0001, now);
-        voiceGain.gain.linearRampToValueAtTime(peak, now + 0.006);
+        applyVoiceEnvelope({ peak: 0.12 * volumeScale, attack: isSustain ? 0.09 : 0.04, isPercussive: false, triggerDur: 1.2 });
 
-        const dur = (isSustain ? 2.3 : 1.15) * sus.decayMult;
-        voiceGain.gain.exponentialRampToValueAtTime(0.0001, now + dur);
-        trackedOscs.forEach(({ osc }) => osc.stop(now + dur + 0.05));
+      } else if (preset === "pan_flute") {
+        const osc1 = audioCtx.createOscillator();
+        const osc2 = audioCtx.createOscillator();
+        const chiff = audioCtx.createOscillator();
+        const chiffGain = audioCtx.createGain();
+
+        osc1.type = "triangle";
+        osc1.frequency.setValueAtTime(freq, now);
+        osc2.type = "sine";
+        osc2.frequency.setValueAtTime(freq * 2.0, now);
+        const osc2Gain = audioCtx.createGain();
+        osc2Gain.gain.value = 0.22;
+
+        chiff.type = "sine";
+        chiff.frequency.setValueAtTime(freq * 3.0, now);
+        chiffGain.gain.setValueAtTime(0.06, now);
+        chiffGain.gain.exponentialRampToValueAtTime(0.0001, now + 0.07);
+
+        attachDetuneVibrato([osc1, osc2], 4.6, 10, 0.24);
+
+        osc1.connect(voiceGain);
+        osc2.connect(osc2Gain);
+        osc2Gain.connect(voiceGain);
+        chiff.connect(chiffGain);
+        chiffGain.connect(voiceGain);
+
+        osc1.start(now);  registerOsc(osc1, 1.0);
+        osc2.start(now);  registerOsc(osc2, 2.0);
+        chiff.start(now); registerOsc(chiff, 3.0);
+
+        applyVoiceEnvelope({ peak: 0.115 * volumeScale, attack: 0.065, isPercussive: false, triggerDur: 1.2 });
 
       } else if (preset === "nylon_guitar") {
         const gFilter = audioCtx.createBiquadFilter();
         gFilter.type = "lowpass";
         gFilter.Q.value = 1.6;
         gFilter.frequency.setValueAtTime(2600, now);
-        gFilter.frequency.exponentialRampToValueAtTime(580, now + 0.45 * sus.decayMult);
+        gFilter.frequency.exponentialRampToValueAtTime(580, now + Math.max(0.14, 0.45 * sus.decayMult));
         gFilter.connect(voiceGain);
 
         const osc1 = audioCtx.createOscillator();
@@ -3072,7 +4091,6 @@
 
         osc1.type = "triangle";
         osc1.frequency.setValueAtTime(freq, now);
-
         osc2.type = "sawtooth";
         osc2.frequency.setValueAtTime(freq, now);
         osc2Gain.gain.setValueAtTime(0.32, now);
@@ -3084,13 +4102,54 @@
         osc1.start(now); registerOsc(osc1, 1.0);
         osc2.start(now); registerOsc(osc2, 1.0);
 
-        const peak = 0.13 * volumeScale;
-        voiceGain.gain.setValueAtTime(0.0001, now);
-        voiceGain.gain.linearRampToValueAtTime(peak, now + 0.012);
+        applyVoiceEnvelope({ peak: 0.13 * volumeScale, attack: 0.012, isPercussive: true, sustainDur: 3.1, triggerDur: 1.35 });
 
-        const dur = (isSustain ? 3.1 : 1.35) * sus.decayMult;
-        voiceGain.gain.exponentialRampToValueAtTime(0.0001, now + dur);
-        trackedOscs.forEach(({ osc }) => osc.stop(now + dur + 0.05));
+      } else if (preset === "vibraphone") {
+        const vibeBus = audioCtx.createGain();
+        vibeBus.gain.setValueAtTime(0.84, now);
+        attachTremolo(vibeBus, 5.8, 0.2);
+        vibeBus.connect(voiceGain);
+
+        const osc1 = audioCtx.createOscillator();
+        const ping = audioCtx.createOscillator();
+        const pingGain = audioCtx.createGain();
+
+        osc1.type = "sine";
+        osc1.frequency.setValueAtTime(freq, now);
+        ping.type = "sine";
+        ping.frequency.setValueAtTime(freq * 4.0, now);
+        pingGain.gain.setValueAtTime(0.045, now);
+        pingGain.gain.exponentialRampToValueAtTime(0.0001, now + 0.09);
+
+        osc1.connect(vibeBus);
+        ping.connect(pingGain);
+        pingGain.connect(vibeBus);
+
+        osc1.start(now); registerOsc(osc1, 1.0);
+        ping.start(now); registerOsc(ping, 4.0);
+
+        applyVoiceEnvelope({ peak: 0.14 * volumeScale, attack: 0.008, isPercussive: true, sustainDur: 3.6, triggerDur: 1.55 });
+
+      } else if (preset === "marimba") {
+        const osc1 = audioCtx.createOscillator();
+        const woodBar = audioCtx.createOscillator();
+        const woodGain = audioCtx.createGain();
+
+        osc1.type = "sine";
+        osc1.frequency.setValueAtTime(freq, now);
+        woodBar.type = "sine";
+        woodBar.frequency.setValueAtTime(freq * 4.0, now);
+        woodGain.gain.setValueAtTime(0.14, now);
+        woodGain.gain.exponentialRampToValueAtTime(0.0001, now + 0.045);
+
+        osc1.connect(voiceGain);
+        woodBar.connect(woodGain);
+        woodGain.connect(voiceGain);
+
+        osc1.start(now);    registerOsc(osc1, 1.0);
+        woodBar.start(now); registerOsc(woodBar, 4.0);
+
+        applyVoiceEnvelope({ peak: 0.155 * volumeScale, attack: 0.005, isPercussive: true, sustainDur: 1.35, triggerDur: 0.75 });
 
       } else if (preset === "jazz_organ") {
         const drawbars = [
@@ -3124,40 +4183,57 @@
         clickOsc.start(now);
         registerOsc(clickOsc, 3.0);
 
-        const peak = 0.08 * volumeScale;
-        voiceGain.gain.setValueAtTime(0.0001, now);
-        voiceGain.gain.linearRampToValueAtTime(peak, now + 0.015);
+        applyVoiceEnvelope({ peak: 0.08 * volumeScale, attack: 0.015, isPercussive: false, triggerDur: 1.05 });
 
-        if (!isSustain) {
-          const dur = 1.05 * sus.decayMult;
-          voiceGain.gain.exponentialRampToValueAtTime(0.0001, now + dur);
-          trackedOscs.forEach(({ osc }) => osc.stop(now + dur + 0.05));
-        }
+      } else if (preset === "church_organ") {
+        const pipeFilter = audioCtx.createBiquadFilter();
+        pipeFilter.type = "lowpass";
+        pipeFilter.frequency.setValueAtTime(3400, now);
+        pipeFilter.connect(voiceGain);
 
-      } else if (preset === "strings") {
-        const strFilter = audioCtx.createBiquadFilter();
-        strFilter.type = "lowpass";
-        strFilter.frequency.setValueAtTime(1450, now);
-        strFilter.connect(voiceGain);
+        const pipes = [
+          { ratio: 0.5, type: "sine",     gain: 0.45 },
+          { ratio: 1.0, type: "triangle", gain: 0.55 },
+          { ratio: 1.5, type: "sine",     gain: 0.25 },
+          { ratio: 2.0, type: "triangle", gain: 0.35 },
+          { ratio: 3.0, type: "sine",     gain: 0.14 },
+          { ratio: 4.0, type: "sine",     gain: 0.10 }
+        ];
 
-        [0.994, 1.0, 1.006].forEach(detuneRatio => {
+        pipes.forEach(p => {
           const osc = audioCtx.createOscillator();
-          osc.type = "sawtooth";
-          osc.frequency.setValueAtTime(freq * detuneRatio, now);
-          osc.connect(strFilter);
+          const pGain = audioCtx.createGain();
+          osc.type = p.type;
+          osc.frequency.setValueAtTime(freq * p.ratio, now);
+          pGain.gain.value = p.gain;
+          osc.connect(pGain);
+          pGain.connect(pipeFilter);
           osc.start(now);
-          registerOsc(osc, detuneRatio);
+          registerOsc(osc, p.ratio);
         });
 
-        const peak = 0.065 * volumeScale;
-        voiceGain.gain.setValueAtTime(0.0001, now);
-        voiceGain.gain.linearRampToValueAtTime(peak, now + (isSustain ? 0.24 : 0.07));
+        applyVoiceEnvelope({ peak: 0.075 * volumeScale, attack: 0.055, isPercussive: false, triggerDur: 1.3 });
 
-        if (!isSustain) {
-          const dur = 1.4 * sus.decayMult;
-          voiceGain.gain.exponentialRampToValueAtTime(0.0001, now + dur);
-          trackedOscs.forEach(({ osc }) => osc.stop(now + dur + 0.05));
-        }
+      } else if (preset === "celesta") {
+        const osc1 = audioCtx.createOscillator();
+        const osc2 = audioCtx.createOscillator();
+        const osc2Gain = audioCtx.createGain();
+
+        osc1.type = "sine";
+        osc1.frequency.setValueAtTime(freq * 2, now);
+        osc2.type = "sine";
+        osc2.frequency.setValueAtTime(freq * 6, now);
+        osc2Gain.gain.setValueAtTime(0.06 * volumeScale, now);
+        osc2Gain.gain.exponentialRampToValueAtTime(0.0001, now + 0.12);
+
+        osc1.connect(voiceGain);
+        osc2.connect(osc2Gain);
+        osc2Gain.connect(voiceGain);
+
+        osc1.start(now); registerOsc(osc1, 2.0);
+        osc2.start(now); registerOsc(osc2, 6.0);
+
+        applyVoiceEnvelope({ peak: 0.11 * volumeScale, attack: 0.006, isPercussive: true, sustainDur: 2.3, triggerDur: 1.15 });
 
       } else if (preset === "epiano") {
         const osc1 = audioCtx.createOscillator();
@@ -3167,7 +4243,6 @@
 
         osc1.type = "triangle";
         osc1.frequency.setValueAtTime(freq, now);
-
         osc2.type = "sine";
         osc2.frequency.setValueAtTime(freq * 1.002, now);
 
@@ -3185,17 +4260,7 @@
         osc2.start(now); registerOsc(osc2, 1.002);
         bell.start(now); registerOsc(bell, 2.0);
 
-        const peak = 0.095 * volumeScale;
-        voiceGain.gain.setValueAtTime(0.0001, now);
-        voiceGain.gain.linearRampToValueAtTime(peak, now + 0.02);
-
-        if (!isSustain) {
-          const dur = 1.2 * sus.decayMult;
-          voiceGain.gain.exponentialRampToValueAtTime(0.0001, now + dur);
-          trackedOscs.forEach(({ osc }) => osc.stop(now + dur + 0.05));
-        } else {
-          voiceGain.gain.exponentialRampToValueAtTime(peak * sus.holdLevel, now + 0.55);
-        }
+        applyVoiceEnvelope({ peak: 0.095 * volumeScale, attack: 0.02, isPercussive: false, triggerDur: 1.2 });
 
       } else if (preset === "kalimba") {
         const osc1 = audioCtx.createOscillator();
@@ -3204,7 +4269,6 @@
 
         osc1.type = "sine";
         osc1.frequency.setValueAtTime(freq, now);
-
         overtone.type = "triangle";
         overtone.frequency.setValueAtTime(freq * 2.98, now);
         overGain.gain.setValueAtTime(0.05 * volumeScale, now);
@@ -3217,19 +4281,10 @@
         osc1.start(now);     registerOsc(osc1, 1.0);
         overtone.start(now); registerOsc(overtone, 2.98);
 
-        const peak = 0.12 * volumeScale;
-        voiceGain.gain.setValueAtTime(0.0001, now);
-        voiceGain.gain.linearRampToValueAtTime(peak, now + 0.01);
-
-        if (!isSustain) {
-          const dur = 0.92 * sus.decayMult;
-          voiceGain.gain.exponentialRampToValueAtTime(0.0001, now + dur);
-          trackedOscs.forEach(({ osc }) => osc.stop(now + dur + 0.05));
-        } else {
-          voiceGain.gain.exponentialRampToValueAtTime(peak * (sus.holdLevel * 0.8), now + 0.45);
-        }
+        applyVoiceEnvelope({ peak: 0.12 * volumeScale, attack: 0.01, isPercussive: true, sustainDur: 1.8, triggerDur: 0.92 });
 
       } else {
+        // Warm Ambient Pad (Default fallback)
         const osc1 = audioCtx.createOscillator();
         const osc2 = audioCtx.createOscillator();
         const padFilter = audioCtx.createBiquadFilter();
@@ -3239,7 +4294,6 @@
 
         osc1.type = "sawtooth";
         osc1.frequency.setValueAtTime(freq * 0.996, now);
-
         osc2.type = "triangle";
         osc2.frequency.setValueAtTime(freq * 1.004, now);
 
@@ -3250,18 +4304,10 @@
         osc1.start(now); registerOsc(osc1, 0.996);
         osc2.start(now); registerOsc(osc2, 1.004);
 
-        const peak = 0.075 * volumeScale;
-        voiceGain.gain.setValueAtTime(0.0001, now);
-        voiceGain.gain.linearRampToValueAtTime(peak, now + (isSustain ? 0.22 : 0.07));
-
-        if (!isSustain) {
-          const dur = 1.4 * sus.decayMult;
-          voiceGain.gain.exponentialRampToValueAtTime(0.0001, now + dur);
-          trackedOscs.forEach(({ osc }) => osc.stop(now + dur + 0.05));
-        }
+        applyVoiceEnvelope({ peak: 0.075 * volumeScale, attack: isSustain ? 0.22 : 0.07, isPercussive: false, triggerDur: 1.4 });
       }
 
-      return {
+      voiceController = {
         setSemitoneOffset: (semitones) => {
           if (!audioCtx) return;
           const t = audioCtx.currentTime;
@@ -3274,15 +4320,27 @@
         },
         stop: (immediate = false) => {
           const t = audioCtx.currentTime;
-          const rel = immediate ? 0.08 : getSustainSettings().releaseSec;
+          const rel = immediate ? 0.025 : getSustainSettings().releaseSec;
+          if (!immediate && voiceController) {
+            activeLingeringVoices.add(voiceController);
+          } else if (voiceController) {
+            activeLingeringVoices.delete(voiceController);
+          }
           voiceGain.gain.cancelScheduledValues(t);
           voiceGain.gain.setValueAtTime(Math.max(voiceGain.gain.value, 0.0001), t);
           voiceGain.gain.exponentialRampToValueAtTime(0.0001, t + rel);
+          const stopAt = t + rel + 0.03;
           trackedOscs.forEach(({ osc }) => {
-            try { osc.stop(t + rel + 0.04); } catch (_) {}
+            try { osc.stop(stopAt); } catch (_) {}
           });
+          extraStopOscs.forEach(osc => {
+            try { osc.stop(stopAt); } catch (_) {}
+          });
+          scheduleNodeCleanup(stopAt);
         }
       };
+
+      return voiceController;
     }
 
     function playChordTrigger(midiList, initialShifts = null) {
@@ -3292,7 +4350,10 @@
         const shift = initialShifts ? (initialShifts[idx] || 0) : 0;
         setTimeout(() => {
           const v = createSynthVoice(midiToFreq(m), false, scale, shift);
-          if (v) voices.push(v);
+          if (v) {
+            voices.push(v);
+            activeLingeringVoices.add(v);
+          }
         }, idx * 16);
       });
       return voices;
@@ -3543,7 +4604,7 @@
 
         if (style === "trigger") {
           if (tracker.sustainVoices[i]) setChordSustain(tracker.sustainVoices, i, chord.midi, false);
-          if (isRaised && !tracker.prevPlayedStates[i] && now - tracker.lastTriggerTimes[i] > 180) {
+          if (isRaised && !tracker.prevPlayedStates[i] && now - tracker.lastTriggerTimes[i] > 120) {
             tracker.triggerVoices[i] = playChordTrigger(chord.midi, voicing.shifts);
             tracker.lastTriggerTimes[i] = now;
           } else if (isRaised && tracker.triggerVoices[i]) {
@@ -3583,6 +4644,12 @@
           if (meter) meter.style.width = "0%";
         }
       });
+      if (immediate) {
+        activeLingeringVoices.forEach(v => {
+          try { v.stop(true); } catch (_) {}
+        });
+        activeLingeringVoices.clear();
+      }
       updateLiveChordPill();
     }
 
@@ -3659,21 +4726,26 @@
         ctx.save();
         ctx.translate(labelX, labelY);
         ctx.scale(-1, 1);
-        ctx.font = "700 12.5px 'Plus Jakarta Sans', 'Noto Sans Thai', system-ui, sans-serif";
+
+        ctx.font = "700 13px 'Plus Jakarta Sans', 'Noto Sans Thai', sans-serif";
+        const padX = 11;
         const textW = ctx.measureText(text).width;
-        const padX = 12;
         const boxW = textW + padX * 2;
         const boxH = 26;
 
-        ctx.fillStyle = "rgba(255, 255, 255, 0.94)";
-        ctx.strokeStyle = color;
-        ctx.lineWidth = 1.6;
+        ctx.fillStyle = "rgba(255, 255, 255, 0.92)";
+        ctx.strokeStyle = "rgba(234, 88, 12, 0.45)";
+        ctx.lineWidth = 1.5;
         ctx.beginPath();
-        ctx.roundRect(-boxW / 2, -boxH / 2, boxW, boxH, 999);
+        if (ctx.roundRect) {
+          ctx.roundRect(-boxW / 2, -boxH / 2, boxW, boxH, 999);
+        } else {
+          ctx.rect(-boxW / 2, -boxH / 2, boxW, boxH);
+        }
         ctx.fill();
         ctx.stroke();
 
-        ctx.fillStyle = "#262322";
+        ctx.fillStyle = "#9a3412";
         ctx.textAlign = "center";
         ctx.textBaseline = "middle";
         ctx.fillText(text, 0, 1);
@@ -3681,85 +4753,36 @@
       }
     }
 
-    // ระบบกล้อง
-    async function populateCameras(activeDeviceId) {
-      const devices = await navigator.mediaDevices.enumerateDevices();
-      const cameras = devices.filter(d => d.kind === "videoinput");
+    function assignHandsToLeftAndRight(detectedHands) {
+      if (detectedHands.length === 0) return { left: null, right: null };
 
-      cameraSelect.innerHTML = "";
-      cameras.forEach((cam, idx) => {
-        const option = document.createElement("option");
-        option.value = cam.deviceId;
-        option.textContent = cam.label || `กล้องที่ ${idx + 1}`;
-        if (cam.deviceId === activeDeviceId) option.selected = true;
-        cameraSelect.appendChild(option);
-      });
-
-      if (cameras.length > 1) cameraSelect.style.display = "inline-block";
-    }
-
-    async function startCamera(specificDeviceId = null) {
-      if (currentStream) currentStream.getTracks().forEach(t => t.stop());
-
-      const preferred = ["integrated", "built-in", "internal", "facetime", "truevision", "hd webcam", "uvc"];
-      const blocked = ["virtual", "obs", "iriun", "droidcam", "epoccam", "manycam", "ndi", "broadcast", "general"];
-
-      let constraints;
-      if (specificDeviceId) {
-        constraints = { video: { deviceId: { exact: specificDeviceId } }, audio: false };
-      } else {
-        const devices = await navigator.mediaDevices.enumerateDevices();
-        const cameras = devices.filter(d => d.kind === "videoinput");
-        const laptopCam = cameras.find(c =>
-          c.label && preferred.some(k => c.label.toLowerCase().includes(k))
-        );
-        constraints = laptopCam
-          ? { video: { deviceId: { exact: laptopCam.deviceId } }, audio: false }
-          : { video: { facingMode: "user" }, audio: false };
-      }
-
-      let stream = await navigator.mediaDevices.getUserMedia(constraints);
-      let track = stream.getVideoTracks()[0];
-
-      if (!specificDeviceId && blocked.some(b => (track?.label || "").toLowerCase().includes(b))) {
-        track.stop();
-        const devices = await navigator.mediaDevices.enumerateDevices();
-        const realCam = devices.find(d =>
-          d.kind === "videoinput" && !blocked.some(b => d.label.toLowerCase().includes(b))
-        );
-        if (realCam) {
-          stream = await navigator.mediaDevices.getUserMedia({
-            video: { deviceId: { exact: realCam.deviceId } },
-            audio: false
-          });
-          track = stream.getVideoTracks()[0];
+      if (detectedHands.length === 1) {
+        const hand = detectedHands[0];
+        if (leftTracker.lastPalmPos && !rightTracker.lastPalmPos && leftTracker.missingFrames < 8) {
+          if (Math.hypot(hand.x - leftTracker.lastPalmPos.x, hand.y - leftTracker.lastPalmPos.y) < 0.25) {
+            return { left: hand, right: null };
+          }
         }
+        if (rightTracker.lastPalmPos && !leftTracker.lastPalmPos && rightTracker.missingFrames < 8) {
+          if (Math.hypot(hand.x - rightTracker.lastPalmPos.x, hand.y - rightTracker.lastPalmPos.y) < 0.25) {
+            return { left: null, right: hand };
+          }
+        }
+        return hand.x >= 0.5 ? { left: hand, right: null } : { left: null, right: hand };
       }
 
-      currentStream = stream;
-      video.srcObject = stream;
-      await video.play();
-
-      syncCanvasSize();
-      await populateCameras(track?.getSettings()?.deviceId);
+      const sorted = [...detectedHands].sort((a, b) => b.x - a.x);
+      return { left: sorted[0], right: sorted[1] };
     }
 
-    async function init() {
-      if (window.location.protocol === "file:") {
-        throw new Error("กรุณาเปิดผ่าน Live Server ใน VS Code หรืออัปโหลดขึ้นเว็บ (https://)");
-      }
-
-      startBtn.disabled = true;
-      statusEl.textContent = "สถานะ: กำลังเชื่อมต่อกล้อง...";
-
-      await ensureAudioReady();
-      await startCamera();
-
-      statusEl.textContent = "สถานะ: กำลังโหลด AI จับนิ้ว...";
+    // =========================================================================
+    // ตั้งค่า MediaPipe Hand Landmarker & กล้อง
+    // =========================================================================
+    async function initMediaPipe() {
+      statusEl.textContent = "สถานะ: กำลังโหลด AI ตรวจจับนิ้วมือ...";
       const vision = await FilesetResolver.forVisionTasks(
         "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision/wasm"
       );
-
       handLandmarker = await HandLandmarker.createFromOptions(vision, {
         baseOptions: {
           modelAssetPath:
@@ -3768,82 +4791,127 @@
         },
         runningMode: "VIDEO",
         numHands: 2,
-        minHandDetectionConfidence: 0.7,
-        minHandPresenceConfidence: 0.7,
-        minTrackingConfidence: 0.7
+        minHandDetectionConfidence: 0.72,
+        minHandPresenceConfidence: 0.72,
+        minTrackingConfidence: 0.72
       });
-
-      statusEl.textContent = "สถานะ: พร้อมเล่น! ชูนิ้วเล่นคอร์ดแล้วยกมือขึ้นเพื่อไล่เสียงสูงในคอร์ด";
     }
 
-    let latestLeftHand = null;
-    let latestRightHand = null;
-    let latestLeftStates = [false, false, false, false, false];
-    let latestRightStates = [false, false, false, false, false];
+    async function populateCameras() {
+      const devices = await navigator.mediaDevices.enumerateDevices();
+      const videoDevices = devices.filter(d => d.kind === "videoinput");
+      cameraSelect.innerHTML = "";
+      videoDevices.forEach((d, idx) => {
+        const opt = document.createElement("option");
+        opt.value = d.deviceId;
+        opt.textContent = d.label || `กล้องตัวที่ ${idx + 1}`;
+        cameraSelect.appendChild(opt);
+      });
+      if (videoDevices.length > 1) {
+        cameraSelect.style.display = "inline-block";
+      }
+    }
 
-    function renderLoop() {
+    async function startWebcam(deviceId = null) {
+      if (currentStream) {
+        currentStream.getTracks().forEach(track => track.stop());
+      }
+      stopAllSustains(true);
+
+      const constraints = {
+        video: deviceId
+          ? { deviceId: { exact: deviceId }, width: 1280, height: 720 }
+          : { facingMode: "user", width: 1280, height: 720 }
+      };
+
+      currentStream = await navigator.mediaDevices.getUserMedia(constraints);
+      video.srcObject = currentStream;
+
+      return new Promise((resolve) => {
+        video.onloadedmetadata = () => {
+          syncCanvasSize();
+          resolve();
+        };
+      });
+    }
+
+    function detectLoop() {
       syncCanvasSize();
-      ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-      if (handLandmarker && video.readyState >= 2 && video.currentTime !== lastVideoTime) {
+      if (video.currentTime !== lastVideoTime) {
         lastVideoTime = video.currentTime;
-        const result = handLandmarker.detectForVideo(video, performance.now());
+        const now = performance.now();
+        const timestamp = now > lastDetectTimestamp ? now : lastDetectTimestamp + 1;
+        lastDetectTimestamp = timestamp;
 
-        const hands = result.landmarks || [];
-        let leftHand = null;
-        let rightHand = null;
+        const results = handLandmarker.detectForVideo(video, timestamp);
 
-        if (hands.length === 1) {
-          const screenX = 1 - hands[0][0].x;
-          if (screenX < 0.5) leftHand = hands[0];
-          else rightHand = hands[0];
-        } else if (hands.length >= 2) {
-          const sorted = [...hands].sort((a, b) => (1 - a[0].x) - (1 - b[0].x));
-          leftHand = sorted[0];
-          rightHand = sorted[1];
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+        const detectedHands = [];
+        if (results.landmarks && results.landmarks.length > 0) {
+          results.landmarks.forEach((landmarks) => {
+            detectedHands.push({
+              landmarks,
+              x: landmarks[9].x,
+              y: landmarks[9].y
+            });
+          });
         }
 
-        latestLeftHand = leftHand;
-        latestRightHand = rightHand;
+        const { left: leftHand, right: rightHand } = assignHandsToLeftAndRight(detectedHands);
 
         if (leftHand) {
-          latestLeftStates = evaluateHandFingers(leftHand, leftTracker);
-          const handY = leftHand[9].y;
-          updateFilterByHandY(handY);
-          syncHandSide("left", latestLeftStates, leftTracker, handY);
+          leftTracker.missingFrames = 0;
+          leftTracker.lastPalmPos = { x: leftHand.x, y: leftHand.y };
+          const states = evaluateHandFingers(leftHand.landmarks, leftTracker);
+          syncHandSide("left", states, leftTracker, leftHand.y);
+          drawHand(leftHand.landmarks, states, leftTracker, "#ea580c");
         } else {
-          latestLeftStates = [false, false, false, false, false];
-          resetHandTracker(leftTracker);
-          syncHandSide("left", latestLeftStates, leftTracker, null);
+          leftTracker.missingFrames++;
+          if (leftTracker.missingFrames > 6) {
+            resetHandTracker(leftTracker);
+            syncHandSide("left", [false, false, false, false, false], leftTracker, null);
+          }
         }
 
         if (rightHand) {
-          latestRightStates = evaluateHandFingers(rightHand, rightTracker);
-          const handY = rightHand[9].y;
-          if (!leftHand) updateFilterByHandY(handY);
-          syncHandSide("right", latestRightStates, rightTracker, handY);
+          rightTracker.missingFrames = 0;
+          rightTracker.lastPalmPos = { x: rightHand.x, y: rightHand.y };
+          const states = evaluateHandFingers(rightHand.landmarks, rightTracker);
+          syncHandSide("right", states, rightTracker, rightHand.y);
+          drawHand(rightHand.landmarks, states, rightTracker, "rgba(28, 25, 23, 0.72)");
         } else {
-          latestRightStates = [false, false, false, false, false];
-          resetHandTracker(rightTracker);
-          syncHandSide("right", latestRightStates, rightTracker, null);
+          rightTracker.missingFrames++;
+          if (rightTracker.missingFrames > 6) {
+            resetHandTracker(rightTracker);
+            syncHandSide("right", [false, false, false, false, false], rightTracker, null);
+          }
         }
-      }
 
-      // วาดเส้นคลื่นเสียงที่บางและพริ้วไหวตามเสียงคอร์ดที่เล่นตลอดเวลา
-      drawAudioWaveform();
+        const handsForFilter = [];
+        if (leftHand) handsForFilter.push(leftHand.y);
+        if (rightHand) handsForFilter.push(rightHand.y);
+        if (handsForFilter.length > 0) {
+          const avgY = handsForFilter.reduce((a, b) => a + b, 0) / handsForFilter.length;
+          updateFilterByHandY(avgY);
+        }
 
-      // วาดโครงมือทับบนแคนวาส
-      if (latestLeftHand) {
-        drawHand(latestLeftHand, latestLeftStates, leftTracker, "#fb923c");
+        drawAudioWaveform();
       }
-      if (latestRightHand) {
-        drawHand(latestRightHand, latestRightStates, rightTracker, "#57534e");
-      }
-
-      requestAnimationFrame(renderLoop);
+      requestAnimationFrame(detectLoop);
     }
 
+    // =========================================================================
     // Event Listeners
+    // =========================================================================
+    initCenterNoteWidget();
+    renderFingerSlots();
+    renderRootTabs();
+    renderChordZones();
+
+    window.addEventListener("resize", syncCanvasSize);
+
     fullscreenBtn.addEventListener("click", toggleFullscreen);
     document.addEventListener("fullscreenchange", updateFullscreenUI);
     document.addEventListener("webkitfullscreenchange", updateFullscreenUI);
@@ -3853,7 +4921,6 @@
         updateFullscreenUI();
       }
     });
-    window.addEventListener("resize", syncCanvasSize);
 
     fingerMapFab.addEventListener("click", () => setFingerHudOpen(true));
     drawerCloseBtn.addEventListener("click", () => setFingerHudOpen(false));
@@ -3864,7 +4931,7 @@
       toggleStudioBtn.classList.toggle("active", isHidden);
       toggleStudioBtn.innerHTML = isHidden
         ? `${ICON_GRID_SVG}<span>ซ่อนคลังคอร์ด</span>`
-        : `${ICON_GRID_SVG}<span>แสดงคลังคอร์ด (ลากวาง)</span>`;
+        : `${ICON_GRID_SVG}<span>เปิดคลังคอร์ด</span>`;
     });
 
     document.getElementById("presetBasicBtn").addEventListener("click", () => {
@@ -3890,92 +4957,72 @@
 
     document.getElementById("clearAllBtn").addEventListener("click", () => {
       stopAllSustains(true);
-      customMap = {
-        left:  [null, null, null, null, null],
-        right: [null, null, null, null, null]
-      };
+      customMap = { left: [null, null, null, null, null], right: [null, null, null, null, null] };
       saveCustomMap();
       renderFingerSlots();
     });
 
-    chordSearchInput.addEventListener("input", () => renderChordZones());
+    chordSearchInput.addEventListener("input", renderChordZones);
+    playStyleSelect.addEventListener("change", () => stopAllSustains(true));
+    presetSelect.addEventListener("change", () => stopAllSustains(true));
+    soloFingerToggle.addEventListener("change", () => stopAllSustains(true));
+    stabilitySelect.addEventListener("change", () => stopAllSustains(true));
+    pitchLiftSelect.addEventListener("change", () => stopAllSustains(true));
 
-    sustainSlider.addEventListener("input", () => {
-      document.getElementById("sustainVal").textContent = `${sustainSlider.value}%`;
+    sustainSlider.addEventListener("input", (e) => {
+      const val = Number(e.target.value);
+      document.getElementById("sustainVal").textContent = `${val}%`;
+      if (val === 0) {
+        stopAllSustains(true);
+      }
     });
 
-    reverbSlider.addEventListener("input", () => {
-      document.getElementById("reverbVal").textContent = `${reverbSlider.value}%`;
-      if (reverbGain) reverbGain.gain.setTargetAtTime(reverbSlider.value / 100, audioCtx.currentTime, 0.03);
+    reverbSlider.addEventListener("input", (e) => {
+      const val = e.target.value;
+      document.getElementById("reverbVal").textContent = `${val}%`;
+      if (reverbGain && audioCtx) {
+        reverbGain.gain.setTargetAtTime(val / 100, audioCtx.currentTime, 0.04);
+      }
     });
 
-    delaySlider.addEventListener("input", () => {
-      document.getElementById("delayVal").textContent = `${delaySlider.value}%`;
-      if (delayGain) delayGain.gain.setTargetAtTime((delaySlider.value / 100) * 0.6, audioCtx.currentTime, 0.03);
+    delaySlider.addEventListener("input", (e) => {
+      const val = e.target.value;
+      document.getElementById("delayVal").textContent = `${val}%`;
+      if (delayGain && audioCtx) {
+        delayGain.gain.setTargetAtTime((val / 100) * 0.6, audioCtx.currentTime, 0.04);
+      }
     });
 
     filterToggle.addEventListener("change", () => {
-      if (!filterToggle.checked && masterFilter) {
-        masterFilter.frequency.setTargetAtTime(4800, audioCtx.currentTime, 0.05);
-        filterHud.textContent = "Filter: ปิด (เสียงเต็ม)";
+      if (!masterFilter || !audioCtx) return;
+      if (!filterToggle.checked) {
+        masterFilter.frequency.setTargetAtTime(18000, audioCtx.currentTime, 0.05);
+        filterHud.textContent = "Filter: ปิด (เต็มย่าน)";
       }
     });
 
-    pitchLiftSelect.addEventListener("change", () => {
-      [leftTracker, rightTracker].forEach(tracker => {
-        for (let i = 0; i < 5; i++) {
-          tracker.baseY[i] = null;
-          tracker.voicingStep[i] = 0;
-          tracker.voicingLabels[i] = "";
-          if (tracker.sustainVoices[i]) {
-            tracker.sustainVoices[i].forEach(v => v && v.setSemitoneOffset(0));
-          }
-          if (tracker.triggerVoices[i]) {
-            tracker.triggerVoices[i].forEach(v => v && v.setSemitoneOffset(0));
-          }
+    startBtn.addEventListener("click", async () => {
+      startBtn.disabled = true;
+      try {
+        await ensureAudioReady();
+        if (!handLandmarker) await initMediaPipe();
+        await startWebcam(cameraSelect.value || null);
+        await populateCameras();
+        statusEl.textContent = "สถานะ: พร้อมเล่น! ชูนิ้วค้างได้เต็มที่";
+        if (!isLoopRunning) {
+          isLoopRunning = true;
+          detectLoop();
         }
-        tracker.activeLiftLabel = "";
-      });
-      updateLiveChordPill();
+      } catch (err) {
+        console.error(err);
+        statusEl.textContent = `เกิดข้อผิดพลาด: ${err.message}`;
+        startBtn.disabled = false;
+      }
     });
-
-    presetSelect.addEventListener("change", async () => {
-      stopAllSustains(true);
-      await ensureAudioReady();
-      playChordTrigger([60, 64, 67, 71, 74]);
-    });
-
-    soloFingerToggle.addEventListener("change", () => stopAllSustains(true));
-    playStyleSelect.addEventListener("change", () => stopAllSustains(true));
-    stabilitySelect.addEventListener("change", () => stopAllSustains(true));
 
     cameraSelect.addEventListener("change", async () => {
-      try {
-        statusEl.textContent = "สถานะ: กำลังสลับกล้อง...";
-        await startCamera(cameraSelect.value);
-        statusEl.textContent = "สถานะ: พร้อมเล่น!";
-      } catch (err) {
-        statusEl.textContent = "สลับกล้องไม่สำเร็จ: " + err.message;
-      }
+      await startWebcam(cameraSelect.value);
     });
-
-    startBtn.addEventListener("click", () => {
-      init().catch((err) => {
-        console.error(err);
-        statusEl.textContent = "เกิดข้อผิดพลาด: " + (err?.message || err);
-        startBtn.disabled = false;
-      });
-    });
-
-    initCenterNoteWidget();
-    renderFingerSlots();
-    renderRootTabs();
-    renderChordZones();
-
-    if (!isLoopRunning) {
-      isLoopRunning = true;
-      renderLoop();
-    }
   </script>
 </body>
 </html>
